@@ -1,2 +1,15 @@
 # My100DaysOfSwiftUI
-My daily practices for the HackingWithSwift 100DayOfSwiftUI Challenge
+
+![Backdrop](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/My100DaysOfSwiftUI.jpg)
+
+Daily practices and my journey for the 100DaysOfSwift Challenge.
+
+### :pushpin: What's New Today?
+
+- [First Steps in Swift](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Day1.md)
+
+### :clipboard: Topics
+
+**Fundamentals of Swift**
+
+- Day 1 - [First Steps in Swift](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Day1.md)
