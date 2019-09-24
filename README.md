@@ -6,10 +6,14 @@ Daily practices and my journey for the 100DaysOfSwift Challenge.
 
 ### :pushpin: What's New Today?
 
-- [First Steps in Swift](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Day1.md)
+- [Complex Data Types](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Day2.md)
 
 ### :clipboard: Topics
 
 **Fundamentals of Swift**
 
 - Day 1 - [First Steps in Swift](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Day1.md)
+- Day 2 - [Complex Data Types](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Day2.md)
+
+
+**Happy Coding!**
