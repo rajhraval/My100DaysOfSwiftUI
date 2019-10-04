@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwift Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Protocols and Extensions](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Day11.md)
+- [Optionals](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Day12.md)
 
 ### :clipboard: Topics
 
@@ -23,6 +23,9 @@ Daily practices and my journey for the 100DaysOfSwift Challenge.
 - Day 9 - [Structs - Part II](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Day9.md)
 - Day 10 - [Classes](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Day10.md)
 - Day 11 - [Protocols and Extensions](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Day11.md)
+- Day 12 - [Optionals](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Day12.md)
+
+
 
 
 ### :books: Blogs 
