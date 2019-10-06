@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwift Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Swift Review - Day One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Day13.md)
+- [Swift Review - Day Two](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Day13.md)
 
 ### :clipboard: Topics
 
@@ -28,6 +28,7 @@ Daily practices and my journey for the 100DaysOfSwift Challenge.
 **Consolidation One**
 
 - Day 13 - [Swift Review - Day One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Day13.md)
+- Day 14 - [Swift Review - Day Two](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Day14.md)
 
 ### :books: Blogs 
 
