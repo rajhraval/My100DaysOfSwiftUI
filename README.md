@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwift Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project One - Part One]()
+- [Project One - Part One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%201%20-%20WeSplit/Project1.md)
 
 ### :clipboard: Topics
 
@@ -33,7 +33,7 @@ Daily practices and my journey for the 100DaysOfSwift Challenge.
 
 **Starting SwiftUI**
 
-- Day 16 - [Project One - Part One]()
+- Day 16 - [Project One - Part One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%201%20-%20WeSplit/Project1.md)
 
 
 ### :books: Blogs 
