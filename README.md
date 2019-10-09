@@ -2,11 +2,11 @@
 
 ![Backdrop](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/My100DaysOfSwiftUI.jpg)
 
-Daily practices and my journey for the 100DaysOfSwift Challenge.
+Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project One - Part One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%201%20-%20WeSplit/Project1.md)
+- [Project One - Part Two](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%201%20-%20WeSplit/Project1.md)
 
 ### :clipboard: Topics
 
@@ -34,6 +34,7 @@ Daily practices and my journey for the 100DaysOfSwift Challenge.
 **Starting SwiftUI**
 
 - Day 16 - [Project One - Part One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%201%20-%20WeSplit/Project1.md)
+- Day 17 - [Project One - Part Two](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%201%20-%20WeSplit/Project1.md)
 
 
 ### :books: Blogs 

@@ -14,3 +14,14 @@ Today I learnt about (Form, NavigationView, @State):
 - Modifying a program state using @State
 - Binding state to user interface controls
 - Creating views in a ForEach Loop
+
+**Project 1 - Day Two - Day 17 of 100DaysOfSwiftUI**
+
+> Experience without theory is blind, but theory without experience is mere intellectual play. - Immanuel Kant 
+
+Today I learn about (Form, Section, Picker, SegmentedPickerStyle, Computed Properties, .decimalPad):
+
+- Reading user values from Textfield
+- Creating pickers in form
+- Adding Segmented Control
+- Creating a computed property to calculate totalAmountPerPerson
