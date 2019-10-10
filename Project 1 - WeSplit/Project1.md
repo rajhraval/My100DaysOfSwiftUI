@@ -25,3 +25,26 @@ Today I learn about (Form, Section, Picker, SegmentedPickerStyle, Computed Prope
 - Creating pickers in form
 - Adding Segmented Control
 - Creating a computed property to calculate totalAmountPerPerson
+
+**Project 1 - Day Three - Day 18 of 100DaysOfSwiftUI**
+
+> The difference between try and triumph is a little umph. - Marvin Phillips
+
+Today I completed the challenges:
+
+- Adding a header to the Third Section (Now Fourth)
+- Adding a new section to show the Grand Total Amount
+- Replacing the Picker View with TextField
+
+**Project 1 - Summary**
+
+I learnt about:
+
+- Form
+- NavigationView
+- @State
+- Section
+- Picker
+- SegmentedPickerStyle
+- Computed Properties
+- .decimalPad
