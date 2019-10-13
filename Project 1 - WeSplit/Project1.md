@@ -1,6 +1,5 @@
 ## Project 1 - HackingWithSwift - 100DaysOfSwiftUI Challenge
 
-
 **Project 1 - Day One - Day 16 of 100DaysOfSwiftUI**
 
 > Be willing to be a beginner every single morning - Meister Eckhart
