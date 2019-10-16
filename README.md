@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project Three - Day One]()
+- [Project Three - Day One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%203%20-%20ViewsAndModifiers/Project3.md)
 
 ### :clipboard: Topics
 
@@ -40,7 +40,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 20 - [Project Two -  Part One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%202%20-%20GuessTheFlags/Project2.md)
 - Day 21 - [Project Two -  Part Two](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%202%20-%20GuessTheFlags/Project2.md)
 - Day 22 - [Project Two -  Part Three](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%202%20-%20GuessTheFlags/Project2.md)
-- Day 23 - [Project Three - Part One]()
+- Day 23 - [Project Three - Part One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%203%20-%20ViewsAndModifiers/Project3.md)
 
 
 ### :books: Blogs 
