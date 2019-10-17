@@ -18,3 +18,20 @@ Today I learnt about (Views, ViewModifiers):
 - View Compositions
 - Custom Modifiers
 - Custom Containers
+
+**Project 3 - Day Two - Day 24 of 100DaysOfSwiftUI**
+
+> Any fool can know; the point is to understand - Albert Einstein
+
+Today I completed the challenges:
+
+- Creating a custom View Modifier to display a Text having large title and blue font
+- Adding a conditional modifier in Project 1, when the tip percentage is 0, text should become red
+- Creating a custom view composition, FlagImage() in Project 2 to display flags.
+
+**Project 3 - Summary**
+
+I learnt about:
+
+- Indepth Details of Views and Modifiers in SwiftUI
+
