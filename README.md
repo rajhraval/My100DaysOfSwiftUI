@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project Four - Day Three]()
+- [Project Four - Day Three](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%204%20-%20BetterRest/Project4.md)
 
 ### :clipboard: Topics
 
@@ -49,9 +49,9 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 **Expanding Skills**
 
-- Day 26 - [Project Four - Part One]()
-- Day 27 - [Project Four - Part Two]()
-- Day 28 - [Project Four - Part Three]()
+- Day 26 - [Project Four - Part One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%204%20-%20BetterRest/Project4.md)
+- Day 27 - [Project Four - Part Two](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%204%20-%20BetterRest/Project4.md)
+- Day 28 - [Project Four - Part Three](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%204%20-%20BetterRest/Project4.md)
 
 ### :books: Blogs 
 
