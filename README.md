@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project Three - Day Two](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%203%20-%20ViewsAndModifiers/Project3.md)
+- [Project Four - Day Three]()
 
 ### :clipboard: Topics
 
@@ -43,6 +43,15 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 23 - [Project Three - Part One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%203%20-%20ViewsAndModifiers/Project3.md)
 - Day 24 - [Project Three - Part Two](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%203%20-%20ViewsAndModifiers/Project3.md)
 
+**Consolidation Two**
+
+- Day 25 - [Milestone Project 1-3]()
+
+**Expanding Skills**
+
+- Day 26 - [Project Four - Part One]()
+- Day 27 - [Project Four - Part Two]()
+- Day 28 - [Project Four - Part Three]()
 
 ### :books: Blogs 
 
