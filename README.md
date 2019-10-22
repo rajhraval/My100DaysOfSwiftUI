@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project Four - Day Three](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%204%20-%20BetterRest/Project4.md)
+- [Project Five - Day One]()
 
 ### :clipboard: Topics
 
@@ -33,6 +33,9 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 **Starting SwiftUI**
 
+This mainly covered the fundamentals of: Form, NavigationView, @State, Section, Picker, SegmentedPickerStyle, Computed Properties, VStack, HStack, ZStack, Colors and Frames, Angular, Linear and Radial Gradients, Buttons, Images, Alerts, Conditional Modifiers, Environmental Modifiers, View Properties, View Compositions, Custom Modifiers, Custom Containers, Steppers, DatePickers, DateFormatters, Creating ML Models using CreateML
+and Using CoreML to predict with model
+
 - Day 16 - [Project One - Part One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%201%20-%20WeSplit/Project1.md)
 - Day 17 - [Project One - Part Two](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%201%20-%20WeSplit/Project1.md)
 - Day 18 - [Project One - Part Three](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%201%20-%20WeSplit/Project1.md)
@@ -52,6 +55,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 26 - [Project Four - Part One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%204%20-%20BetterRest/Project4.md)
 - Day 27 - [Project Four - Part Two](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%204%20-%20BetterRest/Project4.md)
 - Day 28 - [Project Four - Part Three](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%204%20-%20BetterRest/Project4.md)
+- Day 29 - [Project Five - Part One]()
 
 ### :books: Blogs 
 

@@ -32,3 +32,12 @@ Today I completed the challenges:
 - Replaced a Stepper with the Picker
 - Replacing the Caluclating Button and adding it into section
 
+**Project 4 - Summary**
+
+I learnt about:
+
+- Steppers
+- DatePickers
+- DateFormatters
+- Creating ML Models using CreateML
+- Using CoreML to predict with model

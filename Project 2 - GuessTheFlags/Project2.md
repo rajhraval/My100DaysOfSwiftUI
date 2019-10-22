@@ -33,3 +33,15 @@ Today I completed the challenges:
 - Showing score label below the flags
 - Showing alert if the user has clicked the wrong flag
 
+**Project 2 - Summary**
+
+I learnt about:
+
+- VStack
+- HStack
+- ZStack
+- Colors and Frames
+- Angular, Linear and Radial Gradients
+- Buttons
+- Images
+- Alerts
