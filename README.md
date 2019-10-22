@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project Five - Day One]()
+- [Project Five - Day One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%205%20-%20WordScramble/Project5.md)
 
 ### :clipboard: Topics
 
@@ -55,7 +55,7 @@ and Using CoreML to predict with model
 - Day 26 - [Project Four - Part One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%204%20-%20BetterRest/Project4.md)
 - Day 27 - [Project Four - Part Two](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%204%20-%20BetterRest/Project4.md)
 - Day 28 - [Project Four - Part Three](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%204%20-%20BetterRest/Project4.md)
-- Day 29 - [Project Five - Part One]()
+- Day 29 - [Project Five - Part One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%205%20-%20WordScramble/Project5.md)
 
 ### :books: Blogs 
 
