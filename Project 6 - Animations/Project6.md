@@ -22,3 +22,13 @@ Today I learnt about (Animation Stacks, Gestures, Trasnsitions, Custom Animation
 - Animating using Gestures
 - Showing and hiding tranisitions
 - Creating custom animation modifiers
+
+**Project 6 - Day Two - Day 34 of 100DaysOfSwiftUI**
+
+> Goals are dreams with deadlines. - Diana Scharf-Hunt
+
+Today I completed the challenges:
+
+- Adding rotation animation to  Project 2 - If the flag pressed is correct one
+- Adding blur animation to  Project 2 - If the flag pressed is wrong one
+- Adding a Custom Animation to Project 2

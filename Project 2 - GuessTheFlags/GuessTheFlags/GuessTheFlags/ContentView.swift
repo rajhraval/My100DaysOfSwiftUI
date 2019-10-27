@@ -28,6 +28,12 @@ struct ContentView: View {
     @State private var scoreMessage = ""
     @State private var userScore = 0
     
+    @State private var angle = [0.0, 0.0, 0.0]
+    @State private var opacityValue = [1.0, 1.0, 1.0]
+    
+    @State private var stiffness = [0.0, 0.0, 0.0]
+    @State private var damping = [0.0, 0.0, 0.0]
+    
     @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"].shuffled()
     
     @State private var correctAnswer = Int.random(in: 0...2)
@@ -52,6 +58,9 @@ struct ContentView: View {
                     }) {
                         FlagImage(image: self.countries[number])
                     }
+                    .rotationEffect(.degrees(self.angle[number]))
+                    .opacity(self.opacityValue[number])
+                    .animation(.default)
                     
                 }
                 Spacer()
@@ -70,18 +79,44 @@ struct ContentView: View {
             scoreTitle = "Correct"
             userScore += 1
             scoreMessage = "That is the flag of \(countries[correctAnswer])"
-            showingScore = true
+            correctFlagAnimation()
         } else {
             scoreTitle = "Wrong"
             scoreMessage = "That is the flag of \(countries[number])"
-            showingScore = true
+            wrongFlagAnimation()
         }
+        showingScore = true
     }
     
     func askQuestion() {
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
+        
+        angle = [0.0, 0.0, 0.0]
+        opacityValue = [1.0, 1.0, 1.0]
+        stiffness = [0.0, 0.0, 0.0]
+        damping = [0.0, 0.0, 0.0]
     }
+    
+    func correctFlagAnimation() {
+        for flag in 0...2 {
+            if flag == correctAnswer {
+                angle[flag] = 360
+            } else {
+                opacityValue[flag] = 0.25
+            }
+        }
+    }
+    
+    func wrongFlagAnimation() {
+        for flag in 0...2 {
+            if flag != correctAnswer {
+                stiffness[flag] = 3
+                damping[flag] = 5
+            }
+        }
+    }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
