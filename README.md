@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project Six - Day Three](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%206%20-%20Animations/Project6.md)
+- [Milestone Project 4-6]()
 
 ### :clipboard: Topics
 
@@ -61,6 +61,10 @@ and Using CoreML to predict with model
 - Day 32 - [Project Six - Part One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%206%20-%20Animations/Project6.md)
 - Day 33 - [Project Six - Part Two](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%206%20-%20Animations/Project6.md)
 - Day 34 - [Project Six - Part Three](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%206%20-%20Animations/Project6.md)
+
+**Consolidation Three**
+
+- Day 25 - [Milestone Project 4-6]()
 
 ### :books: Blogs 
 
