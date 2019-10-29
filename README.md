@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project Seven - Part One]()
+- [Project Seven - Part One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%207%20-%20iExpense/Project7.md)
 
 ### :clipboard: Topics
 
@@ -68,7 +68,7 @@ and Using CoreML to predict with model
 
 **Scaling up to bigger apps**
 
-- Day 36 - [Project Seven - Part One]()
+- Day 36 - [Project Seven - Part One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%207%20-%20iExpense/Project7.md)
 
 ### :books: Blogs 
 
