@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Milestone Project 4-6]()
+- [Project Seven - Part One]()
 
 ### :clipboard: Topics
 
@@ -64,7 +64,11 @@ and Using CoreML to predict with model
 
 **Consolidation Three**
 
-- Day 25 - [Milestone Project 4-6]()
+- Day 35 - [Milestone Project 4-6]()
+
+**Scaling up to bigger apps**
+
+- Day 36 - [Project Seven - Part One]()
 
 ### :books: Blogs 
 
