@@ -13,3 +13,15 @@ Today I learnt about(@State, @ObservedObject, @Published, UserDefaults, sheet(),
 - Deleting rows in lists
 - Storing data using UserDefaults
 - Encoding and Decoding Swift Objects using Codable Protocol
+
+**Project 7 - Day Two - Day 37 of 100DaysOfSwiftUI**
+
+> Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away. - Antoine de Saint-Exupery
+
+Today I learnt about(@ObservedObject, @Environment, sheet(), onDelete(), UUID(), Identifiable Protocol):
+
+- Creating a List and deleting items
+- Working with Identifiable Protocol
+- Sharing an Observed Object with another SwiftUI View
+- Making permanent changes with UserDefaults
+- Polishing the User Interface
