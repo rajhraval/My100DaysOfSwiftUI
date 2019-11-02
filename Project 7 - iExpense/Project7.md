@@ -25,3 +25,27 @@ Today I learnt about(@ObservedObject, @Environment, sheet(), onDelete(), UUID(),
 - Sharing an Observed Object with another SwiftUI View
 - Making permanent changes with UserDefaults
 - Polishing the User Interface
+
+**Project 7 - Day Three - Day 38 of 100DaysOfSwiftUI**
+
+> Sometimes you need to press pause to let everything sink in. - Sebastian Vettel
+
+Today I completed the challenges:
+
+- Added the EditButton() on the Navigation Bar
+- Styling Text with different colors depending upon the values
+- Adding Alert if the amount entered is not a Number Int and a random string value
+
+**Project 7 - Summary**
+
+I learnt about:
+
+- @State
+- @ObservedObject
+- @Published
+- UserDefaults
+- sheet()
+- deleteRow()
+- @Environment
+- UUID()
+- Identifiable Protocol

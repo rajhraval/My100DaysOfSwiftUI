@@ -44,6 +44,26 @@ struct ContentView: View {
     
     @State private var showingAddExpense = false
     
+    func changeTextColor(amount: Int) -> Text {
+        switch amount {
+        case 1...10:
+            return Text("$\(amount)")
+                .foregroundColor(Color.purple)
+        case 11...100:
+            return Text("$\(amount)")
+                .foregroundColor(Color.blue)
+        case 101...1000:
+            return Text("$\(amount)")
+                .foregroundColor(Color.green)
+        case 1001...10000:
+            return Text("$\(amount)")
+                .foregroundColor(Color.yellow)
+        default:
+            return Text("$\(amount)")
+                .foregroundColor(Color.red)
+        }
+    }
+    
     var body: some View {
         NavigationView {
             List {
@@ -56,15 +76,18 @@ struct ContentView: View {
                             Text(item.type)
                         }
                         Spacer()
-                        Text("$\(item.amount)")
+                        self.changeTextColor(amount: item.amount)
                     }
                 }
                 .onDelete(perform: removeItems)
             }
-            .navigationBarItems(trailing: Button(action: {
-                self.showingAddExpense = true
-            }){
-                Image(systemName: "plus")
+            .navigationBarItems(trailing: HStack {
+                Button(action: {
+                    self.showingAddExpense = true
+                }){
+                    Image(systemName: "plus")
+                }
+                EditButton()
             })
             .navigationBarTitle("iExpense")
             .sheet(isPresented: $showingAddExpense) {
