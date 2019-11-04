@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project Eight - Part One]()
+- [Project Eight - Part One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%208%20-%20Moonshot/Project8.md)
 
 ### :clipboard: Topics
 
@@ -71,7 +71,7 @@ and Using CoreML to predict with model
 - Day 36 - [Project Seven - Part One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%207%20-%20iExpense/Project7.md)
 - Day 37 - [Project Seven - Part Two](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%207%20-%20iExpense/Project7.md)
 - Day 38 - [Project Seven - Part Three](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%207%20-%20iExpense/Project7.md)
-- Day 39 - [Project Eight - Part One]()
+- Day 39 - [Project Eight - Part One](https://github.com/BuckyBoy6399/My100DaysOfSwiftUI/blob/master/Project%208%20-%20Moonshot/Project8.md)
 
 ### :books: Blogs 
 
