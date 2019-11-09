@@ -22,3 +22,10 @@ Today I learnt about (Codable, Generics, Nested Structures):
 - Using Swift Generics to load any kind(type) of Data
 - Formatting the MissionViews using DateDecodingStrategy
 
+**Project 8 - Day Three - Day 41 of 100DaysOfSwiftUI**
+
+>  I suppose the quality in an astronaut more powerful than any other is curiosity – they have to get to some place nobody’s ever been. - John Glenn
+
+- Showing Mission Details using GeometryReader
+- Merging Codable Structs using first(where: )
+- Fixing UI using PlainButtonStyle and layoutPriority()
