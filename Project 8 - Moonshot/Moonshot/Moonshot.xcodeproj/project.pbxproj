@@ -13,6 +13,11 @@
 		CF8E827B237060790066E69C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8E827A237060790066E69C /* Assets.xcassets */; };
 		CF8E827E237060790066E69C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8E827D237060790066E69C /* Preview Assets.xcassets */; };
 		CF8E8281237060790066E69C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8E827F237060790066E69C /* LaunchScreen.storyboard */; };
+		CFA53B7D2371C100001C7376 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = CFA53B7B2371C100001C7376 /* astronauts.json */; };
+		CFA53B7E2371C100001C7376 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = CFA53B7C2371C100001C7376 /* missions.json */; };
+		CFA53B802371C15F001C7376 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA53B7F2371C15F001C7376 /* Astronaut.swift */; };
+		CFAC19582376842300966EB1 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC19572376842300966EB1 /* Bundle-Decodable.swift */; };
+		CFAC195C23768A7300966EB1 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC195B23768A7300966EB1 /* Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		CF8E827D237060790066E69C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF8E8280237060790066E69C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF8E8282237060790066E69C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA53B7B2371C100001C7376 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		CFA53B7C2371C100001C7376 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		CFA53B7F2371C15F001C7376 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		CFAC19572376842300966EB1 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		CFAC195B23768A7300966EB1 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +69,14 @@
 				CF8E8274237060770066E69C /* AppDelegate.swift */,
 				CF8E8276237060770066E69C /* SceneDelegate.swift */,
 				CF8E8278237060770066E69C /* ContentView.swift */,
+				CFA53B7F2371C15F001C7376 /* Astronaut.swift */,
+				CFAC195B23768A7300966EB1 /* Mission.swift */,
+				CFAC19572376842300966EB1 /* Bundle-Decodable.swift */,
 				CF8E827A237060790066E69C /* Assets.xcassets */,
 				CF8E827F237060790066E69C /* LaunchScreen.storyboard */,
 				CF8E8282237060790066E69C /* Info.plist */,
+				CFA53B7B2371C100001C7376 /* astronauts.json */,
+				CFA53B7C2371C100001C7376 /* missions.json */,
 				CF8E827C237060790066E69C /* Preview Content */,
 			);
 			path = Moonshot;
@@ -134,8 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF8E8281237060790066E69C /* LaunchScreen.storyboard in Resources */,
+				CFA53B7E2371C100001C7376 /* missions.json in Resources */,
 				CF8E827E237060790066E69C /* Preview Assets.xcassets in Resources */,
 				CF8E827B237060790066E69C /* Assets.xcassets in Resources */,
+				CFA53B7D2371C100001C7376 /* astronauts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFAC195C23768A7300966EB1 /* Mission.swift in Sources */,
 				CF8E8275237060770066E69C /* AppDelegate.swift in Sources */,
 				CF8E8277237060770066E69C /* SceneDelegate.swift in Sources */,
+				CFAC19582376842300966EB1 /* Bundle-Decodable.swift in Sources */,
 				CF8E8279237060770066E69C /* ContentView.swift in Sources */,
+				CFA53B802371C15F001C7376 /* Astronaut.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

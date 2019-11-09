@@ -11,3 +11,14 @@ Today I learnt about (GeometryReader, NavigationLink, ScrollView, Decoding JSON)
 - Learning about ScrollViews
 - Pushing views using Navigation Links
 - Decoding JSON (Hierarchical Data) using Codable Protocol
+
+**Project 8 - Day Two - Day 40 of 100DaysOfSwiftUI**
+
+> Before software can be reusable it first has to be usable - Ralph Johnson 
+
+Today I learnt about (Codable, Generics, Nested Structures):
+
+- Loading specific kind(type) of data using Codable
+- Using Swift Generics to load any kind(type) of Data
+- Formatting the MissionViews using DateDecodingStrategy
+
