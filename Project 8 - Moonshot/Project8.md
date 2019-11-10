@@ -26,6 +26,33 @@ Today I learnt about (Codable, Generics, Nested Structures):
 
 >  I suppose the quality in an astronaut more powerful than any other is curiosity – they have to get to some place nobody’s ever been. - John Glenn
 
+Today I learn about (layoutPriority(), PlainButtonStyle, Merging Codable Structs)
+
 - Showing Mission Details using GeometryReader
 - Merging Codable Structs using first(where: )
 - Fixing UI using PlainButtonStyle and layoutPriority()
+
+**Project 8 - Day Four - Day 42 of 100DaysOfSwiftUI**
+
+> Don't Panic, you can do this - A Quote
+
+Today I completed the challenges:
+
+- Adding the lauch date to the MissionView
+- Modifying Astronaut View to show the missions flown by the astronauts
+- Adding a toggle button showing names of the Astronauts or picking the Dates
+
+**Project 8 - Summary**
+
+I learnt about:
+
+- GeometryReader
+- NavigationLink
+- ScrollView
+- Decoding JSON
+- Codable
+- Generics
+- Nested Structures
+- layoutPriority()
+- PlainButtonStyle
+- Merging Codable Structs
