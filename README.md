@@ -6,5 +6,13 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
+- [First Steps in Swift]() 
+
 
 ### :clipboard: Topics
+
+**Fundamentals of Swift**
+
+- Day 1 - [First Steps in Swift]()
+
+**Happy Learning!**
