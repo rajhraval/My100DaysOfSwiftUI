@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [First Steps in Swift](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day1.md) 
+- [Complex Data Types](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day2.md) 
 
 
 ### :clipboard: Topics
@@ -14,5 +14,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 **Fundamentals of Swift**
 
 - Day 1 - [First Steps in Swift](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day1.md)
+- Day 2 - [Complex Data Types](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day2.md)
+
 
 **Happy Learning!**
