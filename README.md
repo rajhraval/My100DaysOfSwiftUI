@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Operators and Conditions](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day3.md) 
+- [Loops](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day4.md) 
 
 
 ### :clipboard: Topics
@@ -16,5 +16,6 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 1 - [First Steps in Swift](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day1.md)
 - Day 2 - [Complex Data Types](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day2.md)
 - Day 3 - [Operators and Conditions](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day3.md)
+- Day 4 - [Loops](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day4.md)
 
 **Happy Learning!**
