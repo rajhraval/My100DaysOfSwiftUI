@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Functions](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day5.md) 
+- [Closures - Part I](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day5.md) 
 
 
 ### :clipboard: Topics
@@ -18,5 +18,6 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 3 - [Operators and Conditions](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day3.md)
 - Day 4 - [Loops](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day4.md)
 - Day 5 - [Functions](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day5.md)
+- Day 6 - [Closures - Part I](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day6.md))
 
 **Happy Learning!**
