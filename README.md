@@ -20,7 +20,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 5 - [Functions](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day5.md)
 - Day 6 - [Closures - Part I](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day6.md)
 - Day 7 - [Closures - Part II](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day7.md)
-- Day 7 - [Structs - Part I](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day8.md)
+- Day 8 - [Structs - Part I](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day8.md)
 
 
 **Happy Learning!**
