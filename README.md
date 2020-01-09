@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Structs - Part I](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day8.md) 
+- [Structs - Part II](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day9.md) 
 
 
 ### :clipboard: Topics
@@ -21,6 +21,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 6 - [Closures - Part I](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day6.md)
 - Day 7 - [Closures - Part II](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day7.md)
 - Day 8 - [Structs - Part I](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day8.md)
+- Day 9 - [Structs - Part II](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day9.md)
 
 
 **Happy Learning!**
