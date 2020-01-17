@@ -13,3 +13,14 @@ Today I learnt about:
 - Modifying program state
 - Binding state to user interface controls
 - Creating views in loops
+
+### Project 1 - Day Two - Day 17 of 100DaysOfSwiftUI
+
+> Experience without theory is blind, but theory without experience is mere intellectual play. - Immanuel Kant
+
+Today I learnt about:
+
+- Reading text from the user with Textfield
+- Creating pickers in form
+- Adding segmented controls
+- Calculating total using Computed Properties
