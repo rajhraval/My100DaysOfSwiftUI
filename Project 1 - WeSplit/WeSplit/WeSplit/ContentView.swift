@@ -11,13 +11,13 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var checkAmount = ""
-    @State private var numberOfPeople = 2
+    @State private var numberOfPeople = ""
     @State private var tipPercentage = 2
     
     let tipPerecentages = [10, 15, 20, 25, 0]
     
     var totalPerPerson: Double {
-        let peopleCount = Double(numberOfPeople + 2)
+        let peopleCount = Double(numberOfPeople) ?? 1
         let tipSelection = Double(tipPerecentages[tipPercentage])
         let orderAmount = Double(checkAmount) ?? 0
         
@@ -28,7 +28,11 @@ struct ContentView: View {
         return amountPerPerson
     }
     
-    
+    var totalBill: Double {
+        let peopleCount = Double(numberOfPeople) ?? 1
+        
+        return peopleCount * totalPerPerson
+    }
     
     var body: some View {
         NavigationView {
@@ -37,11 +41,9 @@ struct ContentView: View {
                     TextField("Amount", text: $checkAmount)
                         .keyboardType(.decimalPad)
                     
-                    Picker("Number of people", selection: $numberOfPeople) {
-                        ForEach(2 ..< 100) {
-                            Text("\($0) people")
-                        }
-                    }
+                    TextField("Number of people", text: $numberOfPeople)
+                        .keyboardType(.numberPad)
+                    
                 }
                 
                 Section(header: Text("How much tip do you want to leave?")) {
@@ -53,8 +55,12 @@ struct ContentView: View {
                     .pickerStyle(SegmentedPickerStyle())
                 }
                 
-                Section {
+                Section(header: Text("Amount per person")) {
                     Text("$\(totalPerPerson, specifier: "%.2f")")
+                }
+                
+                Section(header: Text("Grand Total")) {
+                    Text("$\(totalBill, specifier: "%.2f")")
                 }
             }
             .navigationBarTitle("WeSplit")

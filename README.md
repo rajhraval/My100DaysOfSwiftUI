@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 1 - WeSplit - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%201%20-%20WeSplit/Project1.md) 
+- [Project 1 - WeSplit - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%201%20-%20WeSplit/Project1.md) 
 
 ### :clipboard: Topics
 
@@ -35,5 +35,6 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 - Day 16 - [Project 1 - WeSplit - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%201%20-%20WeSplit/Project1.md)
 - Day 17 - [Project 1 - WeSplit - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%201%20-%20WeSplit/Project1.md)
+- Day 18 - [Project 1 - WeSplit - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%201%20-%20WeSplit/Project1.md)
 
 **Happy Learning!**
