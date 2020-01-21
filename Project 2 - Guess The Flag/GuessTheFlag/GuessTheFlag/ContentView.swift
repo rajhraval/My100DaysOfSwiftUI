@@ -10,36 +10,59 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var showingAlert = false
+    @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"].shuffled()
+    @State private var correctAnswer = Int.random(in: 0...2)
+    
+    @State private var showingScore = false
+    @State private var scoreTitle = ""
     
     var body: some View {
-        VStack(spacing: 24.0) {
-            ZStack {
-                Color.yellow.frame(width: 366, height: 95)
-                Text("Learning SwiftUI is really Fun!")
-            }
-            Button(action: {
-                self.showingAlert = true
-            }){
-                ZStack {
-                    Color.purple.frame(width: 366, height: 95)
-                    Text("Show Alert")
+        ZStack {
+            LinearGradient(gradient: Gradient(colors: [.yellow, .orange, .red, .green]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
+            VStack(spacing: 30.0) {
+                VStack {
+                    Text("Tap the flag of")
                         .foregroundColor(.white)
-                        .alert(isPresented: $showingAlert) {
-                            Alert(title: Text("Alert!"), message: Text("This is an alert message"), dismissButton: .default(Text("OK")))
+                    Text(countries[correctAnswer])
+                        .foregroundColor(.white)
+                        .font(.largeTitle)
+                        .fontWeight(.black)
+                }
+                ForEach(0 ..< 3) {
+                    number in
+                    Button(action: {
+                        self.flagTapped(number)
+                    }) {
+                        Image(self.countries[number])
+                            .renderingMode(.original)
+                            .clipShape(Capsule())
+                            .overlay(Capsule().stroke(Color.black, lineWidth: 1))
+                            .shadow(color: .black, radius: 2)
                     }
                 }
+                Spacer()
             }
-            HStack(spacing: 24.0) {
-                Color.red.frame(width: 171, height: 212)
-                Color.blue.frame(width: 171, height: 212)
-            }
-            HStack(spacing: 24.0) {
-                Color.green.frame(width: 171, height: 212)
-                LinearGradient(gradient: Gradient(colors: [.yellow, .red, .orange]), startPoint: .top, endPoint: .bottom)
-                    .frame(width: 171, height: 212)
+            .alert(isPresented: $showingScore) {
+                Alert(title: Text(scoreTitle), message: Text("Your score is ???"), dismissButton: .default(Text("Continue")){
+                    self.askQuestion()
+                })
             }
         }
+    }
+    
+    func flagTapped(_ number: Int) {
+        if number == correctAnswer {
+            scoreTitle = "Correct"
+        } else {
+            scoreTitle = "Wrong!"
+        }
+        
+        showingScore = true
+    }
+    
+    func askQuestion() {
+        countries.shuffle()
+        correctAnswer = Int.random(in: 0...2)
     }
 }
 

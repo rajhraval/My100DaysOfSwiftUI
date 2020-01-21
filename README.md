@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 2 - Guess The Flag - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%202%20-%20Guess%20The%20Flag/Project2.md)
+- [Project 2 - Guess The Flag - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%202%20-%20Guess%20The%20Flag/Project2.md)
 
 ### :clipboard: Topics
 
@@ -38,5 +38,6 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 18 - [Project 1 - WeSplit - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%201%20-%20WeSplit/Project1.md)
 - Day 19 - [Challenge Day Project - Unit Converter](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Challenge%20Day/ChallengeDay.md)
 - Day 20 - [Project 2 - Guess The Flag - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%202%20-%20Guess%20The%20Flag/Project2.md)
+- Day 21 - [Project 2 - Guess The Flag - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%202%20-%20Guess%20The%20Flag/Project2.md)
 
 **Happy Learning!**

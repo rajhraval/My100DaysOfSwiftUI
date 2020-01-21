@@ -12,3 +12,14 @@ Today I learn about:
 - Gradients (Linear, Angular and Radial)
 - Buttons and Images
 - Showing alert messages
+
+### Project 2 - Day Two - Day 21 of 100DaysOfSwiftUI
+
+> Do what you have to do until you can do what you want to do.
+
+Today I learn about:
+
+- Stacking up the buttons 
+- Showing player's score using alert
+- Styling the flags
+
