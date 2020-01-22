@@ -15,11 +15,33 @@ Today I learn about:
 
 ### Project 2 - Day Two - Day 21 of 100DaysOfSwiftUI
 
-> Do what you have to do until you can do what you want to do.
+> Do what you have to do until you can do what you want to do. - Oprah Winfrey
 
 Today I learn about:
 
 - Stacking up the buttons 
 - Showing player's score using alert
 - Styling the flags
+
+### Project 2 - Day Three - Day 22 of 100DaysOfSwiftUI
+
+> Do what you have to do until you can do what you want to do. - Dr Seuss
+
+Today I completed the challenges:
+
+- Adding @State score property to handle the score of the user
+- Show current score of the user and display it as a label
+- Showing alert message if the answer is wrong or right
+
+Project 2 - Summary:
+
+This project was about practicing new topics of SwiftUI Fundamentals:
+
+- Buttons
+- Gradients
+- Colors
+- HStack, VStack and ZStack
+- Images
+- Alerts
+- Clipshapes (Capsules)
 
