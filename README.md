@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 2 - Guess The Flag - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%202%20-%20Guess%20The%20Flag/Project2.md)
+- [Project 3 - Views And Modifiers - Part One]()
 
 ### :clipboard: Topics
 
@@ -40,5 +40,6 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 20 - [Project 2 - Guess The Flag - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%202%20-%20Guess%20The%20Flag/Project2.md)
 - Day 21 - [Project 2 - Guess The Flag - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%202%20-%20Guess%20The%20Flag/Project2.md)
 - Day 22 - [Project 2 - Guess The Flag - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%202%20-%20Guess%20The%20Flag/Project2.md)
+- Day 23 - [Project 3 - Views And Modifiers - Part One]()
 
 **Happy Learning!**
