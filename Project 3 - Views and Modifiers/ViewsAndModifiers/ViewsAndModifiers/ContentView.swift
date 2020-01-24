@@ -63,9 +63,25 @@ struct Watermark: ViewModifier {
     }
 }
 
+
+struct ProminentTitle: ViewModifier {
+    var text: String
+    
+    func body(content: Content) -> some View {
+        Text(text)
+            .foregroundColor(.blue)
+            .font(.largeTitle)
+            .multilineTextAlignment(.center)
+    }
+}
+
 extension View {
     func watermarked(with text: String) -> some View {
         self.modifier(Watermark(text: text))
+    }
+    
+    func prominentTitle(_ text: String) -> some View {
+        self.modifier(ProminentTitle(text: text))
     }
 }
 
@@ -109,6 +125,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack(spacing: 24.0) {
+            prominentTitle("Prominent Title")
             HStack(spacing: 16.0) {
                 miniCardOne
                 miniCardTwo

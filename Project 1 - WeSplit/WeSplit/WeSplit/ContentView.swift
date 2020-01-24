@@ -13,7 +13,6 @@ struct ContentView: View {
     @State private var checkAmount = ""
     @State private var numberOfPeople = ""
     @State private var tipPercentage = 2
-    
     let tipPerecentages = [10, 15, 20, 25, 0]
     
     var totalPerPerson: Double {
@@ -61,6 +60,7 @@ struct ContentView: View {
                 
                 Section(header: Text("Grand Total")) {
                     Text("$\(totalBill, specifier: "%.2f")")
+                        .foregroundColor(tipPercentage == 4 ? .red : .black)
                 }
             }
             .navigationBarTitle("WeSplit")

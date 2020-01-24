@@ -8,6 +8,17 @@
 
 import SwiftUI
 
+struct FlagImage: View {
+    var text: String
+    
+    var body: some View {
+        Image(text)
+            .renderingMode(.original)
+            .cornerRadius(5.0)
+            .shadow(radius: 2.0)
+    }
+}
+
 struct ContentView: View {
     
     @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"].shuffled()
@@ -35,10 +46,7 @@ struct ContentView: View {
                     Button(action: {
                         self.flagTapped(number)
                     }) {
-                        Image(self.countries[number])
-                            .renderingMode(.original)
-                            .cornerRadius(5.0)
-                            .shadow(radius: 2.0)
+                        FlagImage(text: self.countries[number])
                     }
                 }
                 VStack {
@@ -61,12 +69,12 @@ struct ContentView: View {
     
     func flagTapped(_ number: Int) {
         if number == correctAnswer {
-            scoreTitle = "Correct"
-            scoreMessage = "That's the flag of \(countries[correctAnswer])"
+            scoreTitle = "Correct!"
+            scoreMessage = "It is the flag of \(countries[correctAnswer])!"
             score += 1
         } else {
             scoreTitle = "Wrong!"
-            scoreMessage = "That's The flag of \(countries[number])"
+            scoreMessage = "That's The flag of \(countries[number])!"
             score -= 1
         }
         

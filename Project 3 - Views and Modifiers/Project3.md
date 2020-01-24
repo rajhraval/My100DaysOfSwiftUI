@@ -18,7 +18,18 @@ Today I learnt about:
 - Custom Modifiers
 - Custom Containers
 
-Key Learnings:
+### Project 3 - Day Two - Day 24 of 100DaysOfSwiftUI
+
+> Any fool can know; the point is to understand - Albert Einstein
+
+Today I completed the challenges:
+- Adding a custom modifier conforming to `ViewModifier` protocol having a large title with blue font suitable for prominent title.
+- Using a conditional modifier in Project 1 - WeSplit - To make the Grand Total text go red if the tip percentage selected is 0%
+- Creating a FlagImage view composition in Project 2, which renders the flag.
+
+Project 3 - Summary:
+
+I have learnt about Views and Modifiers:
 
 1. SwiftUI uses structs for elemental performance, No Extra Values as compared to Classes and not to inherit methods and properties.
 
@@ -49,3 +60,5 @@ Key Learnings:
 | `.modiferName()` | Wrapping the Struct Using Extensions, then creating a function returning some view and using the name of the function as the modifier name.  |
   
 10. We can also create custom containers with Advanced Swift features like Generics, you can leverage it using SwiftUI View Builders which allows us to send in several views and have it form an implicit stack for us.
+
+11. Local modifiers always override environment modifiers from the parent.
