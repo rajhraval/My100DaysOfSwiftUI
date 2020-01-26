@@ -1,6 +1,6 @@
-## Project 3 - Views And Modifiers - 100DaysOfSwiftUI Challenge
+## Project 4 - Better Rest - 100DaysOfSwiftUI Challenge
 
-### Project 3 - Day One - Day 23 of 100DaysOfSwiftUI
+### Project 4 - Day One - Day 26 of 100DaysOfSwiftUI
 
 > Machine intelligence is the last invention that humanity will ever need to make. - Nick Bostrum
 
