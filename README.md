@@ -7,6 +7,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 ### :pushpin: What's New Today?
 
 - [Milestone Project - 1 to 3 - Rock, Papers And Scissors](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Milestone%20Project%201%20-%20Rock%2C%20Papers%20and%20Scissors/Milestone1.md)
+- [Project 4 - Better Rest - Part One]()
 
 ### :clipboard: Topics
 
@@ -46,5 +47,9 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 **Consolidation Two**
 
 - Day 25 - [Milestone Project - 1 to 3 - Rock, Papers And Scissors](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Milestone%20Project%201%20-%20Rock%2C%20Papers%20and%20Scissors/Milestone1.md)
+
+**Exapnding your Skills**
+
+- Day 26 - [Project 4 - Better Rest - Part One]()
 
 **Happy Learning!**
