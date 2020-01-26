@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 3 - Views And Modifiers - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%203%20-%20Views%20and%20Modifiers/Project3.md)
+- [Milestone Project - 1 to 3 - Rock, Papers And Scissors](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Milestone%20Project%201%20-%20Rock%2C%20Papers%20and%20Scissors/Milestone1.md)
 
 ### :clipboard: Topics
 
@@ -42,5 +42,9 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 22 - [Project 2 - Guess The Flag - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%202%20-%20Guess%20The%20Flag/Project2.md)
 - Day 23 - [Project 3 - Views And Modifiers - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%203%20-%20Views%20and%20Modifiers/Project3.md)
 - Day 24 - [Project 3 - Views And Modifiers - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%203%20-%20Views%20and%20Modifiers/Project3.md)
+
+**Consolidation Two**
+
+- Day 25 - [Milestone Project - 1 to 3 - Rock, Papers And Scissors](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Milestone%20Project%201%20-%20Rock%2C%20Papers%20and%20Scissors/Milestone1.md)
 
 **Happy Learning!**
