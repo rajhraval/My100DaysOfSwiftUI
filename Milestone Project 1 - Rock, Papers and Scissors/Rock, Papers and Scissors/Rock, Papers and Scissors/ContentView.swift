@@ -105,6 +105,7 @@ struct ContentView: View {
                 ForEach(0 ..< moves.count) { number in
                     Button(action: {
                         self.buttonTapped(number)
+                        self.round += 1
                     }) {
                         FancyButton(text: self.moves[number], image: self.images[number], color: self.colors[number])
                     }
@@ -124,9 +125,7 @@ struct ContentView: View {
     }
     
     func buttonTapped(_ number: Int) {
-        round += 1
         if computerMove == number {
-            score += 0
             alertTitle = "It's a Tie!"
             alertMessage = "You score 0 points."
         } else if (computerMove == 0 && number == 1 && playerShouldWin == true) || (computerMove == 1 && number == 2 && playerShouldWin == true) || (computerMove == 2 && number == 0 && playerShouldWin == true) {
