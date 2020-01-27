@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFE982AF23DED6B9004DA2E9 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CFE982AE23DED6B9004DA2E9 /* SleepCalculator.mlmodel */; };
 		CFEC45B623DDA1FB00F2987B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC45B523DDA1FB00F2987B /* AppDelegate.swift */; };
 		CFEC45B823DDA1FB00F2987B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC45B723DDA1FB00F2987B /* SceneDelegate.swift */; };
 		CFEC45BA23DDA1FB00F2987B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC45B923DDA1FB00F2987B /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CFE982AE23DED6B9004DA2E9 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SleepCalculator.mlmodel; path = ../../SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		CFEC45B223DDA1FB00F2987B /* Better Rest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Better Rest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEC45B523DDA1FB00F2987B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFEC45B723DDA1FB00F2987B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				CFEC45BB23DDA1FD00F2987B /* Assets.xcassets */,
 				CFEC45C023DDA1FD00F2987B /* LaunchScreen.storyboard */,
 				CFEC45C323DDA1FD00F2987B /* Info.plist */,
+				CFE982AE23DED6B9004DA2E9 /* SleepCalculator.mlmodel */,
 				CFEC45BD23DDA1FD00F2987B /* Preview Content */,
 			);
 			path = "Better Rest";
@@ -148,6 +151,7 @@
 			files = (
 				CFEC45B623DDA1FB00F2987B /* AppDelegate.swift in Sources */,
 				CFEC45B823DDA1FB00F2987B /* SceneDelegate.swift in Sources */,
+				CFE982AF23DED6B9004DA2E9 /* SleepCalculator.mlmodel in Sources */,
 				CFEC45BA23DDA1FB00F2987B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
