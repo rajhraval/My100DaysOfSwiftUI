@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 4 - Better Rest - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%204%20-%20BetterRest/Project4.md)
+- [Project 4 - Better Rest - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%204%20-%20BetterRest/Project4.md)
 
 ### :clipboard: Topics
 
@@ -51,6 +51,8 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 - Day 26 - [Project 4 - Better Rest - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%204%20-%20BetterRest/Project4.md)
 - Day 27 - [Project 4 - Better Rest - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%204%20-%20BetterRest/Project4.md)
+- Day 28 - [Project 4 - Better Rest - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%204%20-%20BetterRest/Project4.md)
+
 
 
 **Happy Learning!**
