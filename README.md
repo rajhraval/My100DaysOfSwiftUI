@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 5 - WordScramble - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%205%20-%20WordScramble/Project5.md)
+- [Project 5 - WordScramble - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%205%20-%20WordScramble/Project5.md)
 
 ### :clipboard: Topics
 
@@ -53,6 +53,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 27 - [Project 4 - Better Rest - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%204%20-%20BetterRest/Project4.md)
 - Day 28 - [Project 4 - Better Rest - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%204%20-%20BetterRest/Project4.md)
 - Day 29 - [Project 5 - WordScramble - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%205%20-%20WordScramble/Project5.md)
+- Day 30 - [Project 5 - WordScramble - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%205%20-%20WordScramble/Project5.md)
 
 
 
