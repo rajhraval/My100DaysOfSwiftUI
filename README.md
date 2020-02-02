@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 6 - Animations - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%206%20-%20Animations/Project6.md)
+- [Project 6 - Animations - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%206%20-%20Animations/Project6.md)
 
 ### :clipboard: Topics
 
@@ -56,6 +56,8 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 30 - [Project 5 - WordScramble - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%205%20-%20WordScramble/Project5.md)
 - Day 31 - [Project 5 - WordScramble - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%205%20-%20WordScramble/Project5.md)
 - Day 32 - [Project 6 - Animations - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%206%20-%20Animations/Project6.md)
+- Day 33 - [Project 6 - Animations - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%206%20-%20Animations/Project6.md)
+
 
 
 

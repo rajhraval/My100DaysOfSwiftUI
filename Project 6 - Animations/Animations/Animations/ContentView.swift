@@ -8,44 +8,31 @@
 
 import SwiftUI
 
-struct SquareCard: View {
+struct GridStack: View {
     
-    var text: String
-    var color: UIColor
+    let color: UIColor
+    @State private var dragAmount = CGSize.zero
     
     var body: some View {
         ZStack {
-            Color(color).frame(width: 124, height: 124)
-                .cornerRadius(20.0)
-            Text(text)
-                .font(.system(size: 18.0))
-                .foregroundColor(.white)
-                .fontWeight(.bold)
-                .multilineTextAlignment(.center)
+            Color(color)
+                .frame(width: 153, height: 95)
+                .cornerRadius(10)
+                .offset(dragAmount)
+                .gesture(
+                    DragGesture()
+                        .onChanged { self.dragAmount = $0.translation }
+                        .onEnded { _  in
+                            withAnimation(.spring()) {
+                                self.dragAmount = .zero
+                            }
+                    }
+                )
         }
     }
 }
 
-struct LongCard: View {
-    
-    var text: String
-    var color: UIColor
-    
-    var body: some View {
-        ZStack {
-            Color(color).frame(width: 317, height: 124)
-                .cornerRadius(15.0)
-            Text(text)
-                .font(.system(size: 18.0))
-                .foregroundColor(.white)
-                .fontWeight(.bold)
-                .multilineTextAlignment(.center)
-        }
-    }
-}
-
-struct FancyButton: View {
-    
+struct LongButton: View {
     var text: String
     var color: UIColor
     
@@ -54,139 +41,87 @@ struct FancyButton: View {
             Color(color).frame(width: 366, height: 56)
                 .cornerRadius(9.0)
             Text(text)
-                .font(.system(size: 18.0))
                 .foregroundColor(.white)
+                .font(.system(size: 18))
                 .fontWeight(.bold)
                 .multilineTextAlignment(.center)
         }
     }
+}
 
+struct CornerRotateModifier: ViewModifier {
+    let amount: Double
+    let anchor: UnitPoint
+    
+    func body(content: Content) -> some View {
+        content.rotationEffect(.degrees(amount), anchor: anchor).clipped()
+    }
+}
+
+extension AnyTransition {
+    static var pivot: AnyTransition {
+        .modifier(
+            active: CornerRotateModifier(amount: 180, anchor: .leading),
+            identity: CornerRotateModifier(amount: 0, anchor: .trailing)
+        )
+    }
 }
 
 struct ContentView: View {
     
-    let customRed = UIColor(red:1.00, green:0.24, blue:0.24, alpha:1.0)
-    let customOrange = UIColor(red:1.00, green:0.62, blue:0.00, alpha:1.0)
-    let customYellow = UIColor(red:1.00, green:0.81, blue:0.16, alpha:1.0)
-    let customGreen = UIColor(red:0.21, green:0.91, blue:0.36, alpha:1.0)
-    let customSkyBlue = UIColor(red:0.00, green:0.84, blue:1.00, alpha:1.0)
-    let customIndigo = UIColor(red:0.39, green:0.18, blue:1.00, alpha:1.0)
-    let customPurple = UIColor(red:0.74, green:0.06, blue:0.88, alpha:1.0)
-    let customPink = UIColor(red:1.00, green:0.40, blue:0.61, alpha:1.0)
+    @State private var dragAmount = CGSize.zero
+    @State private var isShowingShape = false
     
-    @State private var animationAmountRed = 0.0
-    @State private var animationAmountOrange = 0.0
-    @State private var animationAmountYellow = 0.0
-    @State private var animationAmountGreen = 0.0
+    @State private var snakeDragAmount = CGSize.zero
     
-    @State private var animationAmountBlue: CGFloat = 1
-    @State private var animationAmountIndigo: CGFloat = 1
-    @State private var animationAmountPurple: CGFloat = 1
-    @State private var animationAmountPink: CGFloat = 1
+    let colors = [
+        UIColor(red:1.00, green:0.00, blue:0.75, alpha:1.0),
+        UIColor(red:0.56, green:0.07, blue:1.00, alpha:1.0)
+    ]
     
-    @State private var blueScale = true
-    @State private var indigoScale = true
-    @State private var purpleScale = true
-    @State private var pinkScale = true
+    let letters = Array("Green Python")
     
     var body: some View {
-        VStack(spacing: 56.0) {
-            HStack(spacing: 69.0) {
-                
-                Button(action: {
-                    withAnimation {
-                        self.animationAmountRed += 360.0
-                    }
-                }) {
-                    SquareCard(text: "Rotate X", color: customRed)
-                }
-                .rotation3DEffect(.degrees(animationAmountRed), axis: (x: 1, y: 0, z: 0))
-                
-                Button(action: {
-                    withAnimation {
-                        self.animationAmountOrange += 360.0
-                    }
-                }) {
-                    SquareCard(text: "Rotate Y", color: customOrange)
-                }
-                .rotation3DEffect(.degrees(animationAmountOrange), axis: (x: 0, y: 1, z: 0))
-                
+        VStack(spacing: 36) {
+            HStack(spacing: 36) {
+                GridStack(color: colors[0])
+                GridStack(color: colors[1])
             }
-            HStack(spacing: 69.0) {
-                
-                Button(action: {
-                    withAnimation {
-                        self.animationAmountYellow += 360.0
-                    }
-                }) {
-                    SquareCard(text: "Rotate Z", color: customYellow)
-                }
-                .rotation3DEffect(.degrees(animationAmountYellow), axis: (x: 0, y: 0, z: 1))
-                
-                Button(action: {
-                    withAnimation {
-                        self.animationAmountGreen += 180.0
-                    }
-                }) {
-                    SquareCard(text: "180 spin", color: customGreen)
-                }
-                .rotation3DEffect(.degrees(animationAmountGreen), axis: (x: 0, y: 1, z: 0))
-                
+            HStack(spacing: 36) {
+                GridStack(color: colors[0])
+                GridStack(color: colors[1])
             }
-            HStack(spacing: 69.0) {
-                
-                Button(action: {
-                    self.blueScale.toggle()
-                    if self.blueScale {
-                        self.animationAmountBlue = 1
-                    } else {
-                        self.animationAmountBlue = 0
-                    }
-                }) {
-                    SquareCard(text: "Ease In", color: customSkyBlue)
-                }
-                .scaleEffect(animationAmountBlue)
-                .animation(.easeIn)
-                
-                Button(action: {
-                    self.indigoScale.toggle()
-                    if self.indigoScale {
-                        self.animationAmountIndigo = 1
-                    } else {
-                        self.animationAmountIndigo = 0
-                    }
-                }) {
-                    SquareCard(text: "Easy Out", color: customIndigo)
-                }
-                .scaleEffect(animationAmountIndigo)
-                .animation(.easeOut)
-            }
-            
             Button(action: {
-                self.purpleScale.toggle()
-                if self.purpleScale {
-                    self.animationAmountPurple = 1
-                } else {
-                    self.animationAmountPurple = 0
+                withAnimation {
+                    self.isShowingShape.toggle()
                 }
             }) {
-                LongCard(text: "Spring", color: customPurple)
+                LongButton(text: "Animate", color: UIColor(red:0.31, green:0.89, blue:0.76, alpha:1.0))
             }
-            .scaleEffect(animationAmountPurple)
-            .animation(.interpolatingSpring(stiffness: 5, damping: 1))
-            
-            Button(action: {
-                self.pinkScale.toggle()
-                if self.pinkScale {
-                    self.animationAmountPink = 1
-                } else {
-                    self.animationAmountPink = 0
+            if isShowingShape {
+                Rectangle()
+                    .fill(Color(UIColor(red:1.00, green:0.62, blue:0.00, alpha:1.0)))
+                    .frame(width: 342, height: 121)
+                    .cornerRadius(10.0)
+                    .transition(.pivot)
+            }
+            HStack(spacing: 0) {
+                ForEach(0 ..< letters.count) {
+                    Text(String(self.letters[$0]))
+                        .padding(5)
+                        .font(.title)
+                        .foregroundColor(.white)
+                        .background(Color(UIColor(red:0.23, green:0.66, blue:0.00, alpha:1.0)))
+                        .offset(self.snakeDragAmount)
+                        .animation(Animation.default.delay(Double($0) / 20))
                 }
-            }) {
-                FancyButton(text: "Ease In & Ease Out", color: customPink)
             }
-            .scaleEffect(animationAmountPink)
-            .animation(.easeInOut)
+            //.cornerRadius(26.5)
+            .gesture(
+                DragGesture()
+                    .onChanged { self.snakeDragAmount = $0.translation }
+                    .onEnded { _ in self.snakeDragAmount = .zero }
+            )
         }
     }
 }

@@ -11,3 +11,14 @@ Today I learnt about:
 - Customising implicit animations
 - Animations bindings
 - Creating explicit Animations
+
+### Project 6 - Animations - Day 33 of 100DaysOfSwiftUI
+
+> Good design is making something intelligible and memorable; great design is making something memorable and meaningful. - Dieter Rams
+
+Today I learnt about:
+
+- Managing animation stack
+- Animation Gestures
+- Showing and hiding views using transitions
+- Building custom animation modifiers
