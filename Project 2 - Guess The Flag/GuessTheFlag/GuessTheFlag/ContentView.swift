@@ -28,6 +28,8 @@ struct ContentView: View {
     @State private var scoreTitle = ""
     @State private var scoreMessage = ""
     @State private var score = 0
+
+    @State private var animationAngle = 0.0
     
     var body: some View {
         ZStack {
@@ -48,6 +50,7 @@ struct ContentView: View {
                     }) {
                         FlagImage(text: self.countries[number])
                     }
+                    .rotation3DEffect(number == self.correctAnswer ? .degrees(self.animationAngle) : .degrees(.zero), axis: (x: 0, y: 1, z: 0))
                 }
                 VStack {
                     Text("Your Score is")
