@@ -14,8 +14,30 @@ struct FlagImage: View {
     var body: some View {
         Image(text)
             .renderingMode(.original)
-            .cornerRadius(5.0)
+            .frame(width: 213, height: 120)
+            .cornerRadius(6.0)
             .shadow(radius: 2.0)
+    }
+}
+
+struct smallText: View {
+    var text: String
+    
+    var body: some View {
+        Text(text)
+            .font(.system(size: 22))
+            .fontWeight(.regular)
+            .multilineTextAlignment(.center)
+    }
+}
+
+struct bigText: View {
+    var text: String
+    
+    var body: some View {
+        Text(text)
+            .font(.system(size: 32))
+            .fontWeight(.bold)
     }
 }
 
@@ -28,39 +50,29 @@ struct ContentView: View {
     @State private var scoreTitle = ""
     @State private var scoreMessage = ""
     @State private var score = 0
-
-    @State private var animationAngle = 0.0
+    
+    @State private var angle = 0.0
+    @State private var wrongFlag = false
     
     var body: some View {
-        ZStack {
-            LinearGradient(gradient: Gradient(colors: [.pink, .red, .orange, .yellow]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
-            VStack(spacing: 30.0) {
-                VStack {
-                    Text("Tap the flag of")
-                        .foregroundColor(.white)
-                    Text(countries[correctAnswer])
-                        .foregroundColor(.white)
-                        .font(.largeTitle)
-                        .fontWeight(.black)
+        VStack(spacing: 36.0) {
+            VStack(spacing: 12.0) {
+                smallText(text: "Tap the flag of")
+                bigText(text: countries[correctAnswer])
+            }
+            ForEach(0 ..< 3) {
+                number in
+                Button(action: {
+                    self.flagTapped(number)
+                }) {
+                    FlagImage(text: self.countries[number])
+                        .rotation3DEffect(number == self.correctAnswer ? .degrees(self.angle) : .zero, axis: (x: 0, y: 1, z: 0))
+                        .animation(.default)
                 }
-                ForEach(0 ..< 3) {
-                    number in
-                    Button(action: {
-                        self.flagTapped(number)
-                    }) {
-                        FlagImage(text: self.countries[number])
-                    }
-                    .rotation3DEffect(number == self.correctAnswer ? .degrees(self.animationAngle) : .degrees(.zero), axis: (x: 0, y: 1, z: 0))
-                }
-                VStack {
-                    Text("Your Score is")
-                        .foregroundColor(.white)
-                    Text("\(score)")
-                        .foregroundColor(.white)
-                        .font(.title)
-                        .fontWeight(.bold)
-                }
-                Spacer()
+            }
+            VStack(spacing: 12.0) {
+                smallText(text: "You score is")
+                bigText(text: "\(score)")
             }
             .alert(isPresented: $showingScore) {
                 Alert(title: Text(scoreTitle), message: Text(scoreMessage), dismissButton: .default(Text("Continue")){
@@ -75,10 +87,12 @@ struct ContentView: View {
             scoreTitle = "Correct!"
             scoreMessage = "It is the flag of \(countries[correctAnswer])!"
             score += 1
+            angle += 360.0
         } else {
             scoreTitle = "Wrong!"
             scoreMessage = "That's The flag of \(countries[number])!"
             score -= 1
+            wrongFlag = true
         }
         
         showingScore = true
