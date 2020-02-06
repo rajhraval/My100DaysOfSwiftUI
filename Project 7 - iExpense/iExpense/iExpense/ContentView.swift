@@ -8,88 +8,75 @@
 
 import SwiftUI
 
-struct LongButton: View {
-    var text: String
-    var color: UIColor
-    
-    var body: some View {
-        ZStack {
-            Color(color).frame(width: 366, height: 56)
-                .cornerRadius(9.0)
-            Text(text)
-                .foregroundColor(.white)
-                .font(.system(size: 18))
-                .fontWeight(.semibold)
-                .multilineTextAlignment(.center)
-        }
-    }
+struct ExpenseItem: Identifiable, Codable {
+    let id = UUID()
+    let name: String
+    let type: String
+    let amount: Int
 }
 
-struct SecondView: View {
-    
-    @State private var rotateShape = false
-    @State private var tapCount = UserDefaults.standard.integer(forKey: "Tap")
-    
-    var body: some View {
-        VStack(spacing: 36) {
-            Text("Button Pressed: \(tapCount)")
-                .font(.system(size: 18))
-                .fontWeight(.semibold)
-                .multilineTextAlignment(.center)
-            Button(action: {
-                withAnimation {
-                    self.rotateShape.toggle()
-                    self.tapCount += 1
-                    UserDefaults.standard.set(self.tapCount, forKey: "Tap")
-                }
-            }) {
-                LongButton(text: "Animate", color: UIColor(red:1.00, green:0.00, blue:0.75, alpha:1.0))
-            }
-            if rotateShape {
-                Rectangle()
-                    .fill(Color.yellow)
-                    .frame(width: 200, height: 200)
-                    .cornerRadius(10.0)
-                    .transition(.asymmetric(insertion: .scale, removal: .opacity))
+class Expenses: ObservableObject {
+    @Published var items = [ExpenseItem]() {
+        didSet {
+            let encoder = JSONEncoder()
+            if let encoded = try? encoder.encode(items) {
+                UserDefaults.standard.set(encoded, forKey: "Items")
             }
         }
+    }
+    
+    init() {
+        if let items = UserDefaults.standard.data(forKey: "Items") {
+            let decoder = JSONDecoder()
+            if let decoded = try? decoder.decode([ExpenseItem].self, from: items) {
+                self.items = decoded
+                return
+            }
+        }
+        self.items = []
     }
 }
 
 struct ContentView: View {
     
-    @State private var showSheet = false
-    @State private var numbers = [Int]()
-    @State private var number = 1
+    @ObservedObject var expenses = Expenses()
+    
+    @State private var showingAddExpense = false
     
     var body: some View {
-        VStack(spacing: 18.0) {
+        NavigationView {
             List {
-                ForEach(numbers, id: \.self) {
-                    Text("\($0)")
+                ForEach(expenses.items) { item in
+                    HStack {
+                        VStack(alignment: .leading) {
+                            Text(item.name)
+                                .font(.headline)
+                            Text(item.type)
+                        }
+                        Spacer()
+                        Text("$\(item.amount)")
+                    }
                 }
-                .onDelete(perform: removeRows)
+                .onDelete(perform: removeItems)
             }
-            Button(action: {
-                self.numbers.append(self.number)
-                self.number += 1
-            }) {
-                LongButton(text: "Add Number", color: UIColor(red: 0.00, green: 0.92, blue: 0.66, alpha: 1.0))
-            }
-            Button(action: {
-                self.showSheet.toggle()
-            }) {
-                LongButton(text: "Show Sheet", color: UIColor(red: 0.56, green: 0.07, blue: 1.00, alpha: 1.0))
-            }
-            .sheet(isPresented: $showSheet) {
-                SecondView()
+            .navigationBarTitle("iExpense")
+            .navigationBarItems(trailing:
+                Button(action: {
+                    self.showingAddExpense = true
+                }) {
+                    Image(systemName: "plus")
+                }
+            )
+                .sheet(isPresented: $showingAddExpense) {
+                    AddView(expenses: self.expenses)
             }
         }
     }
     
-    func removeRows(at offsets: IndexSet) {
-        numbers.remove(atOffsets: offsets)
+    func removeItems(at offsets: IndexSet) {
+        expenses.items.remove(atOffsets: offsets)
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

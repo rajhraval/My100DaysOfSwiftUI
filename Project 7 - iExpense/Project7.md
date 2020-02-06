@@ -13,3 +13,15 @@ Today I learnt about:
 - Deleting items in a list using onDelete()
 - Storing user settings with UserDefaults
 - Archiving Swift objects with Codable
+
+### Project 7 - iExpense - Day 37 of 100DaysOfSwiftUI
+
+> Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away. - Antoine de Saint-Exupery
+
+Today I learnt about:
+
+- Building a list for showing the expenses and which is deletable
+- Working with Identifiable Protocol using UUID
+- Sharing an ObservedObject with a new view
+- Making changes permanent with UserDefaults
+- Final polish of the user interface
