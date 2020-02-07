@@ -15,6 +15,8 @@ struct ExpenseItem: Identifiable, Codable {
     let amount: Int
 }
 
+
+
 class Expenses: ObservableObject {
     @Published var items = [ExpenseItem]() {
         didSet {
@@ -52,29 +54,42 @@ struct ContentView: View {
                             Text(item.name)
                                 .font(.headline)
                             Text(item.type)
+                                .foregroundColor(item.type == "Personal" ? .blue : .green)
                         }
                         Spacer()
-                        Text("$\(item.amount)")
+                        self.changeTextColor(amount: item.amount)
                     }
                 }
                 .onDelete(perform: removeItems)
             }
             .navigationBarTitle("iExpense")
-            .navigationBarItems(trailing:
-                Button(action: {
+            .navigationBarItems(leading:
+                EditButton(),
+                trailing: Button(action: {
                     self.showingAddExpense = true
                 }) {
                     Image(systemName: "plus")
                 }
             )
-                .sheet(isPresented: $showingAddExpense) {
-                    AddView(expenses: self.expenses)
+            .sheet(isPresented: $showingAddExpense) {
+                AddView(expenses: self.expenses)
             }
         }
     }
     
     func removeItems(at offsets: IndexSet) {
         expenses.items.remove(atOffsets: offsets)
+    }
+    
+    func changeTextColor(amount: Int) -> Text {
+        switch amount {
+        case 1...10:
+            return Text("$\(amount)").foregroundColor(.yellow)
+        case 11...100:
+            return Text("$\(amount)").foregroundColor(.orange)
+        default:
+            return Text("$\(amount)").foregroundColor(.red)
+        }
     }
     
 }

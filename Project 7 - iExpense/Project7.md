@@ -25,3 +25,23 @@ Today I learnt about:
 - Sharing an ObservedObject with a new view
 - Making changes permanent with UserDefaults
 - Final polish of the user interface
+
+### Project 7 - iExpense - Day 38 of 100DaysOfSwiftUI
+
+> Sometimes you need to press pause to let everything sink in. - Sebastian Vettel
+
+Today I completed the challenges:
+
+- Adding an EditButton on the Navigation Bar to delete list rows
+- Modifying the expense amount with styling
+- Adding validation while saving expenses information
+
+Project 7 - Summary:
+
+This project was all about the scaling up in SwiftUI skill and I learn about:
+
+- UserDefaults
+- Codable, ObservableObject and Identifiable Protocols
+- Published and ObservedObject Protocol
+- Modal Sheet View
+- @State working only with Structs

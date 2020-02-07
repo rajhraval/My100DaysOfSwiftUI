@@ -18,6 +18,10 @@ struct AddView: View {
     @State private var type = "Personal"
     @State private var amount = ""
     
+    @State private var showingAlert = false
+    @State private var alertTitle = ""
+    @State private var alertMessage = ""
+    
     static let types = ["Business", "Personal"]
     
     var body: some View {
@@ -38,15 +42,35 @@ struct AddView: View {
                         let item = ExpenseItem(name: self.name, type: self.type, amount: actualAmount)
                         self.expenses.items.append(item)
                         self.presentationMode.wrappedValue.dismiss()
+                    } else if self.amount.isEmpty && self.name.isEmpty {
+                        self.showError(errorTitle: "Empty Fields", errorMessage: "Enter the expense name and the expense amount.")
+                    } else {
+                        self.showError(errorTitle: "Invalid Amount", errorMessage: "Enter a valid expense amount in numbrs.")
                     }
                 }
             )
+            .alert(isPresented: $showingAlert) {
+                Alert(title: Text(alertTitle), message: Text(alertMessage), dismissButton: .default(Text("OK")))
+            }
         }
     }
+    
+    func showError(errorTitle: String, errorMessage: String) {
+        showingAlert = true
+        alertTitle = errorTitle
+        alertMessage = errorMessage
+    }
+    
 }
 
 struct AddView_Previews: PreviewProvider {
     static var previews: some View {
         AddView(expenses: Expenses())
+    }
+}
+
+extension String {
+    var isInt: Bool {
+        return Int(self) != nil
     }
 }

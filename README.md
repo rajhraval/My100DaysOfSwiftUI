@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 7 - iExpense - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%207%20-%20iExpense/Project7.md)
+- [Project 7 - iExpense - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%207%20-%20iExpense/Project7.md)
 
 ### :clipboard: Topics
 
@@ -67,5 +67,6 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 - Day 36 - [Project 7 - iExpense - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%207%20-%20iExpense/Project7.md)
 - Day 37 - [Project 7 - iExpense - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%207%20-%20iExpense/Project7.md)
+- Day 38 - [Project 7 - iExpense - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%207%20-%20iExpense/Project7.md)
 
 **Happy Learning!**
