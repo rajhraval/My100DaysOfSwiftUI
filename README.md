@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 8 - Moonshot - Part One]()
+- [Project 8 - Moonshot - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%208%20-%20Moonshot/Project8.md)
 
 ### :clipboard: Topics
 
@@ -68,6 +68,6 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 36 - [Project 7 - iExpense - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%207%20-%20iExpense/Project7.md)
 - Day 37 - [Project 7 - iExpense - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%207%20-%20iExpense/Project7.md)
 - Day 38 - [Project 7 - iExpense - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%207%20-%20iExpense/Project7.md)
-- Day 39 - [Project 8 - Moonshot - Part One]()
+- Day 39 - [Project 8 - Moonshot - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%208%20-%20Moonshot/Project8.md)
 
 **Happy Learning!**
