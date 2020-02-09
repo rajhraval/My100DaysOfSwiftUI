@@ -11,3 +11,13 @@ Today I learnt about:
 - How scroll view works with Scrolling Data
 - Pushing new views onto the stack using Navigation Link
 - Working with hierarchical Codable data 
+
+### Project 8 - Moonshot - Day 40 of 100DaysOfSwiftUI
+
+> Before software can be reusable it first has to be usable - Ralph Johnson
+
+Today I learnt about:
+
+- Loading a specific kind of Codable data 
+- Using Generics to load any kind of Codable data
+- Creating the MissionView Layout

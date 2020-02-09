@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF32478923F05DE4007F121F /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = CF32478723F05DE4007F121F /* astronauts.json */; };
+		CF32478A23F05DE4007F121F /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = CF32478823F05DE4007F121F /* missions.json */; };
+		CF32478C23F05E4C007F121F /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF32478B23F05E4C007F121F /* Astronaut.swift */; };
+		CF32478E23F05EEA007F121F /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF32478D23F05EEA007F121F /* Bundle-Decodable.swift */; };
+		CF32479023F060F4007F121F /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF32478F23F060F4007F121F /* Mission.swift */; };
 		CF60BECF23EE9B09004BF32C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60BECE23EE9B09004BF32C /* AppDelegate.swift */; };
 		CF60BED123EE9B09004BF32C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60BED023EE9B09004BF32C /* SceneDelegate.swift */; };
 		CF60BED323EE9B09004BF32C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60BED223EE9B09004BF32C /* ContentView.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF32478723F05DE4007F121F /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		CF32478823F05DE4007F121F /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		CF32478B23F05E4C007F121F /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		CF32478D23F05EEA007F121F /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		CF32478F23F060F4007F121F /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		CF60BECB23EE9B09004BF32C /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF60BECE23EE9B09004BF32C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF60BED023EE9B09004BF32C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,9 +69,14 @@
 				CF60BECE23EE9B09004BF32C /* AppDelegate.swift */,
 				CF60BED023EE9B09004BF32C /* SceneDelegate.swift */,
 				CF60BED223EE9B09004BF32C /* ContentView.swift */,
+				CF32478B23F05E4C007F121F /* Astronaut.swift */,
+				CF32478F23F060F4007F121F /* Mission.swift */,
+				CF32478D23F05EEA007F121F /* Bundle-Decodable.swift */,
 				CF60BED423EE9B0B004BF32C /* Assets.xcassets */,
 				CF60BED923EE9B0B004BF32C /* LaunchScreen.storyboard */,
 				CF60BEDC23EE9B0B004BF32C /* Info.plist */,
+				CF32478723F05DE4007F121F /* astronauts.json */,
+				CF32478823F05DE4007F121F /* missions.json */,
 				CF60BED623EE9B0B004BF32C /* Preview Content */,
 			);
 			path = Moonshot;
@@ -134,8 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF60BEDB23EE9B0B004BF32C /* LaunchScreen.storyboard in Resources */,
+				CF32478A23F05DE4007F121F /* missions.json in Resources */,
 				CF60BED823EE9B0B004BF32C /* Preview Assets.xcassets in Resources */,
 				CF60BED523EE9B0B004BF32C /* Assets.xcassets in Resources */,
+				CF32478923F05DE4007F121F /* astronauts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF32479023F060F4007F121F /* Mission.swift in Sources */,
 				CF60BECF23EE9B09004BF32C /* AppDelegate.swift in Sources */,
 				CF60BED123EE9B09004BF32C /* SceneDelegate.swift in Sources */,
+				CF32478E23F05EEA007F121F /* Bundle-Decodable.swift in Sources */,
 				CF60BED323EE9B09004BF32C /* ContentView.swift in Sources */,
+				CF32478C23F05E4C007F121F /* Astronaut.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
