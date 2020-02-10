@@ -21,3 +21,13 @@ Today I learnt about:
 - Loading a specific kind of Codable data 
 - Using Generics to load any kind of Codable data
 - Creating the MissionView Layout
+
+### Project 8 - Moonshot - Day 41 of 100DaysOfSwiftUI
+
+> I suppose the quality in an astronaut more powerful than any other is curiosity – they have to get to some place nobody’s ever been - John Glenn
+
+Today I learnt about:
+
+- Showing mission details in a ScrollView and displaying the badge using GeometryReader
+- Merging data using from `(where:)`
+- Fixing problems using `PlainButtonStyle()` and `layoutPriority()`
