@@ -23,6 +23,8 @@ struct AstronautView: View {
                     Text(self.astronaut.description)
                         .padding()
                         .layoutPriority(1)
+                    Text("Missions Flown:")
+                        .font(.headline)
                 }
             }
         }
