@@ -31,3 +31,24 @@ Today I learnt about:
 - Showing mission details in a ScrollView and displaying the badge using GeometryReader
 - Merging data using from `(where:)`
 - Fixing problems using `PlainButtonStyle()` and `layoutPriority()`
+
+### Project 8 - Moonshot - Day 42 of 100DaysOfSwiftUI
+
+> Don't Panic!
+
+Today I completed the challenges:
+
+- Adding Mission Launch Date to the Mission View
+- Adding missions the astronauts has flown on in the Astroanut View
+- Adding a toggle button to show crew name instead of launch date
+
+Project 8 - Summary:
+
+In this project, I learnt about:
+
+- Working with Nested Structs
+- Generics
+- Geometry Reader
+- ScrollView
+- layoutPriority
+

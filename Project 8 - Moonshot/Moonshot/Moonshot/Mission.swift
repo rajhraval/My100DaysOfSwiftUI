@@ -36,4 +36,15 @@ struct Mission: Codable, Identifiable {
             return "N/A"
         }
     }
+    
+    var formattedCrew: String {
+        
+        var memberName = ""
+        
+        for member in crew {
+            memberName += "\(member.name.capitalized), "
+        }
+        
+        return String(memberName.dropLast(2))
+    }
 }
