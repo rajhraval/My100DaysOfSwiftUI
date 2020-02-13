@@ -10,3 +10,13 @@ Today I learnt about:
 - Creating custom path to create shapes like Triangle
 - Difference between Paths and Shapes in SwiftUI
 - Adding strokeBorder support to custom shapes using the InsettableShape
+
+### Project 9 - Drawing - Day 44 of 100DaysOfSwiftUI
+
+> Make it work, Make it right, Make it fast - Kent Beck
+
+Today I learnt about:
+
+- Transforming shapes using `CGAffineTransform` and even-odd fills
+- Making creative border fills using ImagePaint
+- Enabling high-performance Metal rendering using `drawingGroup()`
