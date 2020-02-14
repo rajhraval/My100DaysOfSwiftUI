@@ -20,3 +20,14 @@ Today I learnt about:
 - Transforming shapes using `CGAffineTransform` and even-odd fills
 - Making creative border fills using ImagePaint
 - Enabling high-performance Metal rendering using `drawingGroup()`
+
+### Project 9 - Drawing - Day 45 of 100DaysOfSwiftUI
+
+> We aim above the mark to hit the mark. - Ralph Waldo Emerson
+
+Today I learnt about:
+
+- Working special effects in SwiftUI like blurs, hue, saturationa and blending modes (.multiply and screen)
+- Animating shapes using animatableData
+- Animating complex shapes using AnimatablePair
+- Creating a spirograph 
