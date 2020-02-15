@@ -31,3 +31,24 @@ Today I learnt about:
 - Animating shapes using animatableData
 - Animating complex shapes using AnimatablePair
 - Creating a spirograph 
+
+### Project 9 - Drawing - Day 46 of 100DaysOfSwiftUI
+
+> I’ve always had the mind-set that no one can challenge me better than myself. - Troy Polamalu
+
+Today I completed the challenge:
+
+- Creating an Arrow Shape
+- Giving Border Thickness using Animatable to the Arrow
+- Creating a ColorCyclingRectangle
+
+Project 9 - Summary:
+
+I learnt about:
+
+- Creating Paths in SwiftUI
+- CGAffineTransforms
+- SwiftUI Image Effects
+- AnimatablePair and AnimatableData
+- Creating Complex Shape Structs
+- InSettable Shape Protocol
