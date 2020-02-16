@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 9 - Drawing - Part Four](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%209%20-%20Drawing/Project9.md)
+
 
 ### :clipboard: Topics
 
@@ -77,5 +77,8 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 45 - [Project 9 - Drawing - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%209%20-%20Drawing/Project9.md)
 - Day 46 - [Project 9 - Drawing - Part Four](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%209%20-%20Drawing/Project9.md)
 
+**Consolidation Four**
+
+- Day 47 - [Milestone Project - 7 to 9 - Habits]() - Under Development
 
 **Happy Learning!**
