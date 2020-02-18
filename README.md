@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 10 - Cupcake Corner - Part One]()
+- [Project 10 - Cupcake Corner - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2010%20-%20Cupcake%20Corner/Project10.md)
 
 ### :clipboard: Topics
 
@@ -84,6 +84,6 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 **Focus on Data**
 
-- Day 49 - [Project 10 - Cupcake Corner - Part One]()
+- Day 49 - [Project 10 - Cupcake Corner - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2010%20-%20Cupcake%20Corner/Project10.md)
 
 **Happy Learning!**
