@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Expanding Your Horizons]()
+- [Project 10 - Cupcake Corner - Part One]()
 
 ### :clipboard: Topics
 
@@ -81,5 +81,9 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 - Day 47 - [Milestone Project - 7 to 9 - Habits](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Milestone%20Project%203%20-%20Habits/Milestone3.md) - Under Development
 - Day 48 - [Expanding Your Horizons]()
+
+**Focus on Data**
+
+- Day 49 - [Project 10 - Cupcake Corner - Part One]()
 
 **Happy Learning!**
