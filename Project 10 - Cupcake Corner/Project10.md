@@ -20,3 +20,12 @@ Today I learnt about:
 - Entering basic cupcake details
 - Adding user information for delivery address
 - Preparing for checkout of the cupcake delivery
+
+### Project 10 - Cupcake Corner - Day 51 of 100DaysOfSwiftUI
+
+> The network is the computer - Sun Microsystems
+
+Today I learnt about:
+
+- Encoding and Decoding the ObservedObject class object using CodingKeys
+- Sending a POST HTTP Networking Request using URLSession
