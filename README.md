@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 11 - Bookworm - Part One]()
+- [Project 11 - Bookworm - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2011%20-%20Bookworm/Project11.md)
 
 ### :clipboard: Topics
 
@@ -88,7 +88,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 50 - [Project 10 - Cupcake Corner - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2010%20-%20Cupcake%20Corner/Project10.md)
 - Day 51 - [Project 10 - Cupcake Corner - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2010%20-%20Cupcake%20Corner/Project10.md)
 - Day 52 - [Project 10 - Cupcake Corner - Part Four](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2010%20-%20Cupcake%20Corner/Project10.md)
-- Day 53 - [Project 11 - Bookworm - Part One]()
+- Day 53 - [Project 11 - Bookworm - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2011%20-%20Bookworm/Project11.md)
 
 
 **Happy Learning!**
