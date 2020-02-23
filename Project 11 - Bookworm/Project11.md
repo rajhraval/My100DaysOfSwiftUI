@@ -10,3 +10,13 @@ Today I learnt about:
 - @Binding property wrapper
 - AnySize View 
 - Combining CoreData with SwiftUI
+
+### Project 11 - Bookworm - Day 54 of 100DaysOfSwiftUI
+
+> Bad programmers worry about the code; good programmers worry about data structures and their relationships - Linus Torvalds
+
+Today I learnt about:
+
+- Creating objects using CoreData
+- Creating custom UI Component using Binding
+- Building a list using @FetchRequest
