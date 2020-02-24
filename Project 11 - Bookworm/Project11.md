@@ -20,3 +20,14 @@ Today I learnt about:
 - Creating objects using CoreData
 - Creating custom UI Component using Binding
 - Building a list using @FetchRequest
+
+### Project 11 - Bookworm - Day 55 of 100DaysOfSwiftUI
+
+> Always walk through life as if you have something new to learn, and you will - Vernon Howard
+
+Today I learnt about:
+
+- Showing Book Details in another View
+- Sorting fetch requests using NSSortDescriptor
+- Deleting a book from a CoreData fetch request
+- Using a custom alert to pop a NavigationLink programmatically

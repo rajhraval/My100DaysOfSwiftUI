@@ -17,6 +17,7 @@
 		CF8525952401351900836987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8525942401351900836987 /* Assets.xcassets */; };
 		CF8525982401351900836987 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8525972401351900836987 /* Preview Assets.xcassets */; };
 		CF85259B2401351900836987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8525992401351900836987 /* LaunchScreen.storyboard */; };
+		CF9C30D92404180000F5B204 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9C30D82404180000F5B204 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		CF8525972401351900836987 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF85259A2401351900836987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF85259C2401351900836987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9C30D82404180000F5B204 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				CF85258B2401351800836987 /* AppDelegate.swift */,
 				CF0636B22402633A00A3F5E9 /* AddBookView.swift */,
 				CF0636B6240273C200A3F5E9 /* EmojiRatingView.swift */,
+				CF9C30D82404180000F5B204 /* DetailView.swift */,
 				CF0636B424026F2700A3F5E9 /* RatingView.swift */,
 				CF85258D2401351800836987 /* SceneDelegate.swift */,
 				CF8525922401351800836987 /* ContentView.swift */,
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF85258C2401351800836987 /* AppDelegate.swift in Sources */,
+				CF9C30D92404180000F5B204 /* DetailView.swift in Sources */,
 				CF8525912401351800836987 /* Bookworm.xcdatamodeld in Sources */,
 				CF0636B7240273C200A3F5E9 /* EmojiRatingView.swift in Sources */,
 				CF8525932401351800836987 /* ContentView.swift in Sources */,
