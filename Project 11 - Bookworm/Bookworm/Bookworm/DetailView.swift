@@ -36,6 +36,11 @@ struct DetailView: View {
                 Text(self.book.author ?? "Unknown Author")
                     .font(.title)
                     .foregroundColor(.secondary)
+                HStack {
+                    Text("Date Created:")
+                    self.showDate(date: self.book.date ?? Date())
+                }
+                .padding()
                 Text(self.book.review ?? "No Review")
                     .padding()
                 RatingView(rating: .constant(Int(self.book.rating)))
@@ -62,6 +67,14 @@ struct DetailView: View {
         try? self.moc.save()
         presentationMode.wrappedValue.dismiss()
     }
+    
+    func showDate(date: Date) -> Text {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .full
+        dateFormatter.timeStyle = .none
+        return Text("\(dateFormatter.string(from: date))")
+    }
+    
 }
 
 struct DetailView_Previews: PreviewProvider {

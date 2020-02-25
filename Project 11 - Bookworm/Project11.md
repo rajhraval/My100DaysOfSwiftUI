@@ -31,3 +31,23 @@ Today I learnt about:
 - Sorting fetch requests using NSSortDescriptor
 - Deleting a book from a CoreData fetch request
 - Using a custom alert to pop a NavigationLink programmatically
+
+### Project 11 - Bookworm - Day 56 of 100DaysOfSwiftUI
+
+> The more you practice tolerating discomfort, the more confidence you'll gain in your ability to accept new challenges - Amy Morin
+
+Today I completed the challenges:
+
+- Adding an Unknown Genre as a Default Genre
+- Showing red title if the rating is 1 star
+- Adding a Date attribute to the Book entity and formatting it and representing as a String
+
+Project 11 - Summary:
+
+In this project I learnt about:
+
+- Introduction to CoreData (FetchRequests, NSSortDescriptor, FetchedResults, Entities and Attributes)
+- Binding Property Wrapper
+- Custom Alert
+
+
