@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 11 - Bookworm - Part Four](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2011%20-%20Bookworm/Project11.md)
+- [Project 12 - Core Data Project - Part One]()
 
 ### :clipboard: Topics
 
@@ -92,5 +92,6 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 54 - [Project 11 - Bookworm - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2011%20-%20Bookworm/Project11.md)
 - Day 55 - [Project 11 - Bookworm - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2011%20-%20Bookworm/Project11.md)
 - Day 56 - [Project 11 - Bookworm - Part Four](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2011%20-%20Bookworm/Project11.md)
+- Day 57 - [Project 12 - Core Data Project - Part One]()
 
 **Happy Learning!**
