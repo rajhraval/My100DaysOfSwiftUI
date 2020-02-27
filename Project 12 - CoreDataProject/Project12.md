@@ -10,3 +10,13 @@ Today I learnt about:
 - Creating NSManagedObject subclasses for Entity and Attributes
 - Conditional saving of NSManagedObjectContext
 - Unique CoreData objects using constraints
+
+### Project 12 - Core Data Project - Day 58 of 100DaysOfSwiftUI
+
+> All great achievements require time - Maya Angelou
+
+Today I learnt about:
+
+- Filtering FetchRequests using NSPredicate
+- Dynamic Filtering with any CoreData Entity Type
+- Cardinality in CoreData using SwiftUI and FetchRequest
