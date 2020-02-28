@@ -31,6 +31,14 @@ struct ContentView: View {
                 let adele = Singer(context: self.moc)
                 adele.firstName = "Adele"
                 adele.lastName = "Adkins"
+                
+                let liam = Singer(context: self.moc)
+                liam.firstName = "Liam"
+                liam.lastName = "Gallagher"
+                
+                let noel = Singer(context: self.moc)
+                noel.firstName = "Noel"
+                noel.lastName = "Gallagher"
 
                 try? self.moc.save()
             }
