@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 12 - Core Data Project - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2012%20-%20CoreDataProject/Project12.md)
+- [Milestone Project - 10 to 12 - Friender]() - Under Development
 
 ### :clipboard: Topics
 
@@ -95,5 +95,9 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 57 - [Project 12 - Core Data Project - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2012%20-%20CoreDataProject/Project12.md)
 - Day 58 - [Project 12 - Core Data Project - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2012%20-%20CoreDataProject/Project12.md)
 - Day 59 - [Project 12 - Core Data Project - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2012%20-%20CoreDataProject/Project12.md)
+
+**Consolidation Five**
+
+- Day 60 - [Milestone Project - 10 to 12 - Friender]() - Under Development
 
 **Happy Learning!**
