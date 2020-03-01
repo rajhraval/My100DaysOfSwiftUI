@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Milestone Project - 10 to 12 - Friender]() - Under Development
+- [Time for CoreData]() - Under Development
 
 ### :clipboard: Topics
 
@@ -99,5 +99,6 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 **Consolidation Five**
 
 - Day 60 - [Milestone Project - 10 to 12 - Friender]() - Under Development
+- Day 61 - [Time for CoreData]()
 
 **Happy Learning!**

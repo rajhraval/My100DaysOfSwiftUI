@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CFDAC44A240AAA9E00F8DE4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDAC449240AAA9E00F8DE4F /* AppDelegate.swift */; };
-		CFDAC44C240AAA9E00F8DE4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDAC44B240AAA9E00F8DE4F /* SceneDelegate.swift */; };
-		CFDAC44E240AAA9E00F8DE4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDAC44D240AAA9E00F8DE4F /* ContentView.swift */; };
-		CFDAC450240AAAA000F8DE4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDAC44F240AAAA000F8DE4F /* Assets.xcassets */; };
-		CFDAC453240AAAA000F8DE4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDAC452240AAAA000F8DE4F /* Preview Assets.xcassets */; };
-		CFDAC456240AAAA000F8DE4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFDAC454240AAAA000F8DE4F /* LaunchScreen.storyboard */; };
+		CFA3737A240B75FF007FBCA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA37379240B75FF007FBCA6 /* AppDelegate.swift */; };
+		CFA3737C240B75FF007FBCA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA3737B240B75FF007FBCA6 /* SceneDelegate.swift */; };
+		CFA3737F240B75FF007FBCA6 /* Friender.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFA3737D240B75FF007FBCA6 /* Friender.xcdatamodeld */; };
+		CFA37381240B75FF007FBCA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA37380240B75FF007FBCA6 /* ContentView.swift */; };
+		CFA37383240B7601007FBCA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA37382240B7601007FBCA6 /* Assets.xcassets */; };
+		CFA37386240B7601007FBCA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA37385240B7601007FBCA6 /* Preview Assets.xcassets */; };
+		CFA37389240B7601007FBCA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA37387240B7601007FBCA6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CFDAC446240AAA9E00F8DE4F /* Friender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friender.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFDAC449240AAA9E00F8DE4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CFDAC44B240AAA9E00F8DE4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CFDAC44D240AAA9E00F8DE4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CFDAC44F240AAAA000F8DE4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CFDAC452240AAAA000F8DE4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CFDAC455240AAAA000F8DE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CFDAC457240AAAA000F8DE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA37376240B75FF007FBCA6 /* Friender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA37379240B75FF007FBCA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFA3737B240B75FF007FBCA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CFA3737E240B75FF007FBCA6 /* Friender.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Friender.xcdatamodel; sourceTree = "<group>"; };
+		CFA37380240B75FF007FBCA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFA37382240B7601007FBCA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFA37385240B7601007FBCA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFA37388240B7601007FBCA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFA3738A240B7601007FBCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CFDAC443240AAA9E00F8DE4F /* Frameworks */ = {
+		CFA37373240B75FF007FBCA6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,40 +39,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CFDAC43D240AAA9E00F8DE4F = {
+		CFA3736D240B75FF007FBCA6 = {
 			isa = PBXGroup;
 			children = (
-				CFDAC448240AAA9E00F8DE4F /* Friender */,
-				CFDAC447240AAA9E00F8DE4F /* Products */,
+				CFA37378240B75FF007FBCA6 /* Friender */,
+				CFA37377240B75FF007FBCA6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CFDAC447240AAA9E00F8DE4F /* Products */ = {
+		CFA37377240B75FF007FBCA6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CFDAC446240AAA9E00F8DE4F /* Friender.app */,
+				CFA37376240B75FF007FBCA6 /* Friender.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CFDAC448240AAA9E00F8DE4F /* Friender */ = {
+		CFA37378240B75FF007FBCA6 /* Friender */ = {
 			isa = PBXGroup;
 			children = (
-				CFDAC449240AAA9E00F8DE4F /* AppDelegate.swift */,
-				CFDAC44B240AAA9E00F8DE4F /* SceneDelegate.swift */,
-				CFDAC44D240AAA9E00F8DE4F /* ContentView.swift */,
-				CFDAC44F240AAAA000F8DE4F /* Assets.xcassets */,
-				CFDAC454240AAAA000F8DE4F /* LaunchScreen.storyboard */,
-				CFDAC457240AAAA000F8DE4F /* Info.plist */,
-				CFDAC451240AAAA000F8DE4F /* Preview Content */,
+				CFA37379240B75FF007FBCA6 /* AppDelegate.swift */,
+				CFA3737B240B75FF007FBCA6 /* SceneDelegate.swift */,
+				CFA37380240B75FF007FBCA6 /* ContentView.swift */,
+				CFA37382240B7601007FBCA6 /* Assets.xcassets */,
+				CFA37387240B7601007FBCA6 /* LaunchScreen.storyboard */,
+				CFA3738A240B7601007FBCA6 /* Info.plist */,
+				CFA3737D240B75FF007FBCA6 /* Friender.xcdatamodeld */,
+				CFA37384240B7601007FBCA6 /* Preview Content */,
 			);
 			path = Friender;
 			sourceTree = "<group>";
 		};
-		CFDAC451240AAAA000F8DE4F /* Preview Content */ = {
+		CFA37384240B7601007FBCA6 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				CFDAC452240AAAA000F8DE4F /* Preview Assets.xcassets */,
+				CFA37385240B7601007FBCA6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -78,13 +81,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CFDAC445240AAA9E00F8DE4F /* Friender */ = {
+		CFA37375240B75FF007FBCA6 /* Friender */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFDAC45A240AAAA000F8DE4F /* Build configuration list for PBXNativeTarget "Friender" */;
+			buildConfigurationList = CFA3738D240B7601007FBCA6 /* Build configuration list for PBXNativeTarget "Friender" */;
 			buildPhases = (
-				CFDAC442240AAA9E00F8DE4F /* Sources */,
-				CFDAC443240AAA9E00F8DE4F /* Frameworks */,
-				CFDAC444240AAA9E00F8DE4F /* Resources */,
+				CFA37372240B75FF007FBCA6 /* Sources */,
+				CFA37373240B75FF007FBCA6 /* Frameworks */,
+				CFA37374240B75FF007FBCA6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -92,25 +95,25 @@
 			);
 			name = Friender;
 			productName = Friender;
-			productReference = CFDAC446240AAA9E00F8DE4F /* Friender.app */;
+			productReference = CFA37376240B75FF007FBCA6 /* Friender.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CFDAC43E240AAA9E00F8DE4F /* Project object */ = {
+		CFA3736E240B75FF007FBCA6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Buck;
 				TargetAttributes = {
-					CFDAC445240AAA9E00F8DE4F = {
+					CFA37375240B75FF007FBCA6 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = CFDAC441240AAA9E00F8DE4F /* Build configuration list for PBXProject "Friender" */;
+			buildConfigurationList = CFA37371240B75FF007FBCA6 /* Build configuration list for PBXProject "Friender" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,47 +121,48 @@
 				en,
 				Base,
 			);
-			mainGroup = CFDAC43D240AAA9E00F8DE4F;
-			productRefGroup = CFDAC447240AAA9E00F8DE4F /* Products */;
+			mainGroup = CFA3736D240B75FF007FBCA6;
+			productRefGroup = CFA37377240B75FF007FBCA6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CFDAC445240AAA9E00F8DE4F /* Friender */,
+				CFA37375240B75FF007FBCA6 /* Friender */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CFDAC444240AAA9E00F8DE4F /* Resources */ = {
+		CFA37374240B75FF007FBCA6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFDAC456240AAAA000F8DE4F /* LaunchScreen.storyboard in Resources */,
-				CFDAC453240AAAA000F8DE4F /* Preview Assets.xcassets in Resources */,
-				CFDAC450240AAAA000F8DE4F /* Assets.xcassets in Resources */,
+				CFA37389240B7601007FBCA6 /* LaunchScreen.storyboard in Resources */,
+				CFA37386240B7601007FBCA6 /* Preview Assets.xcassets in Resources */,
+				CFA37383240B7601007FBCA6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CFDAC442240AAA9E00F8DE4F /* Sources */ = {
+		CFA37372240B75FF007FBCA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFDAC44A240AAA9E00F8DE4F /* AppDelegate.swift in Sources */,
-				CFDAC44C240AAA9E00F8DE4F /* SceneDelegate.swift in Sources */,
-				CFDAC44E240AAA9E00F8DE4F /* ContentView.swift in Sources */,
+				CFA3737F240B75FF007FBCA6 /* Friender.xcdatamodeld in Sources */,
+				CFA3737A240B75FF007FBCA6 /* AppDelegate.swift in Sources */,
+				CFA37381240B75FF007FBCA6 /* ContentView.swift in Sources */,
+				CFA3737C240B75FF007FBCA6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CFDAC454240AAAA000F8DE4F /* LaunchScreen.storyboard */ = {
+		CFA37387240B7601007FBCA6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CFDAC455240AAAA000F8DE4F /* Base */,
+				CFA37388240B7601007FBCA6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CFDAC458240AAAA000F8DE4F /* Debug */ = {
+		CFA3738B240B7601007FBCA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		CFDAC459240AAAA000F8DE4F /* Release */ = {
+		CFA3738C240B7601007FBCA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +284,7 @@
 			};
 			name = Release;
 		};
-		CFDAC45B240AAAA000F8DE4F /* Debug */ = {
+		CFA3738E240B7601007FBCA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -299,7 +303,7 @@
 			};
 			name = Debug;
 		};
-		CFDAC45C240AAAA000F8DE4F /* Release */ = {
+		CFA3738F240B7601007FBCA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -321,25 +325,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CFDAC441240AAA9E00F8DE4F /* Build configuration list for PBXProject "Friender" */ = {
+		CFA37371240B75FF007FBCA6 /* Build configuration list for PBXProject "Friender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFDAC458240AAAA000F8DE4F /* Debug */,
-				CFDAC459240AAAA000F8DE4F /* Release */,
+				CFA3738B240B7601007FBCA6 /* Debug */,
+				CFA3738C240B7601007FBCA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFDAC45A240AAAA000F8DE4F /* Build configuration list for PBXNativeTarget "Friender" */ = {
+		CFA3738D240B7601007FBCA6 /* Build configuration list for PBXNativeTarget "Friender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFDAC45B240AAAA000F8DE4F /* Debug */,
-				CFDAC45C240AAAA000F8DE4F /* Release */,
+				CFA3738E240B7601007FBCA6 /* Debug */,
+				CFA3738F240B7601007FBCA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CFA3737D240B75FF007FBCA6 /* Friender.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CFA3737E240B75FF007FBCA6 /* Friender.xcdatamodel */,
+			);
+			currentVersion = CFA3737E240B75FF007FBCA6 /* Friender.xcdatamodel */;
+			path = Friender.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = CFDAC43E240AAA9E00F8DE4F /* Project object */;
+	rootObject = CFA3736E240B75FF007FBCA6 /* Project object */;
 }
