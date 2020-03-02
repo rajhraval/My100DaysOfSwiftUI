@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Time for CoreData]() - Under Development
+- [Project 13 - Instafilter - Part One]()
 
 ### :clipboard: Topics
 
@@ -100,5 +100,10 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 - Day 60 - [Milestone Project - 10 to 12 - Friender]() - Under Development
 - Day 61 - [Time for CoreData]()
+
+**Views and ViewControllers**
+
+- Day 62 - [Project 13 - Instafilter - Part One]()
+
 
 **Happy Learning!**
