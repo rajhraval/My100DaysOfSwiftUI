@@ -10,3 +10,12 @@ Today I learnt about:
 - How property wrappers become structs?
 - Custom bindings
 - Showing multiple options using ActionSheet
+
+### Project 13 - Instafilter - Day 63 of 100DaysOfSwiftUI
+
+> Never let the things you want make you forget the things you have. - Anonymous
+
+Today I learnt about:
+
+- Integrating CoreImage with SwiftUI
+- Wrapping a UIViewController (UIImagePickerController) in a SwiftUI View

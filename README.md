@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 13 - Instafilter - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2013%20-%20Instafilter/Project13.md)
+- [Project 13 - Instafilter - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2013%20-%20Instafilter/Project13.md)
 
 ### :clipboard: Topics
 
@@ -104,6 +104,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 **Views and ViewControllers**
 
 - Day 62 - [Project 13 - Instafilter - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2013%20-%20Instafilter/Project13.md)
+- Day 63 - [Project 13 - Instafilter - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2013%20-%20Instafilter/Project13.md)
 
 
 **Happy Learning!**
