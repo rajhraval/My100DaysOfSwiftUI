@@ -14,6 +14,7 @@ struct ContentView: View {
     
     @State private var image: Image?
     @State private var showingImagePicker = false
+    @State private var inputImage: UIImage?
     
     var body: some View {
         VStack {
@@ -25,28 +26,27 @@ struct ContentView: View {
                 self.showingImagePicker = true
             }
         }
-        .sheet(isPresented: $showingImagePicker) {
-            ImagePicker()
+        .sheet(isPresented: $showingImagePicker, onDismiss: loadImage) {
+            ImagePicker(image: self.$inputImage)
         }
     }
     
     func loadImage() {
-        guard let inputImage = UIImage(named: "Homer") else { return }
-        let beginImage = CIImage(image: inputImage)
+        guard let inputImage = inputImage else { return }
+        image = Image(uiImage: inputImage)
         
-        let context = CIContext()
-        let currentFilter = CIFilter.pixellate()
-        currentFilter.inputImage = beginImage
-        currentFilter.scale = 100
-        
-        guard let outputImage = currentFilter.outputImage else { return }
-        
-        if let cgimg = context.createCGImage(outputImage, from: outputImage.extent) {
-            
-            let uiImage = UIImage(cgImage: cgimg)
-            image = Image(uiImage: uiImage)
-            
-        }
+        let imageSaver = ImageSaver()
+        imageSaver.writeToPhotoAlbum(image: inputImage)
+    }
+}
+
+class ImageSaver: NSObject {
+    func writeToPhotoAlbum(image: UIImage) {
+        UIImageWriteToSavedPhotosAlbum(image, self, #selector(saveError), nil)
+    }
+    
+    @objc func saveError(_ image: UIImage, didFinishSavingWithError error: Error?, contextInfo: UnsafeRawPointer) {
+        print("Save Finished!")
     }
 }
 

@@ -19,3 +19,12 @@ Today I learnt about:
 
 - Integrating CoreImage with SwiftUI
 - Wrapping a UIViewController (UIImagePickerController) in a SwiftUI View
+
+### Project 13 - Instafilter - Day 64 of 100DaysOfSwiftUI
+
+> It's(Stamp) usefulness consists in the ability to stick to one thing until it gets there. - Josh Billings
+
+Today I learnt about:
+
+- Using coordinators to manage SwiftUI View Controllers (Making a Bridge between UIKit and SwiftUI)
+- Saving Images in User's Photo Library
