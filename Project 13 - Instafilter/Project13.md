@@ -28,3 +28,13 @@ Today I learnt about:
 
 - Using coordinators to manage SwiftUI View Controllers (Making a Bridge between UIKit and SwiftUI)
 - Saving Images in User's Photo Library
+
+### Project 13 - Instafilter - Day 65 of 100DaysOfSwiftUI
+
+> Any idea, plan, or purpose may be placed in the mind through repetition of thought - Napolean Hill
+
+Today I learnt about:
+
+- Building the basic UI
+- Importing image into SwiftUI using UIImagePickerController
+- Basic image filtering using CoreImage
