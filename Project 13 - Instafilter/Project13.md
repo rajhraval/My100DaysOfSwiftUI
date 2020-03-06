@@ -38,3 +38,12 @@ Today I learnt about:
 - Building the basic UI
 - Importing image into SwiftUI using UIImagePickerController
 - Basic image filtering using CoreImage
+
+### Project 13 - Instafilter - Day 66 of 100DaysOfSwiftUI
+
+> Don’t worry if it doesn’t work right – if everything did, you’d be out of a job - Mosher's Law of Software Engineering
+
+Today I learnt about:
+
+- Adding different Core Image filter by reading different inputKeys and using ActionSheet
+- Saving filtered image and handling error and image saving using handlers
