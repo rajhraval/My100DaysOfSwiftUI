@@ -47,3 +47,22 @@ Today I learnt about:
 
 - Adding different Core Image filter by reading different inputKeys and using ActionSheet
 - Saving filtered image and handling error and image saving using handlers
+
+
+### Project 13 - Instafilter - Day 67 of 100DaysOfSwiftUI
+
+> The greatest enemy of progress is the illusion of knowledge - John Young
+
+Today I completed the challenges:
+
+- Adding an error message
+- Added the filter name to the change filter button
+- Added two more sliders for scale and radius for the required Core Image filter
+
+Project 13 - Summary:
+
+In this project, I learnt about:
+
+- Integrating SwiftUI with UIKit
+- Coordinators in SwiftUI
+- Working with CoreImage, CIFilter, CIImage, CGImage and UIImage

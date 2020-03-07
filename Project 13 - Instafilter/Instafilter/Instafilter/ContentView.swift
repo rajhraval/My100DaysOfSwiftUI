@@ -15,9 +15,17 @@ struct ContentView: View {
     @State private var image: Image?
     @State private var inputImage: UIImage?
     @State private var processedImage: UIImage?
+    
     @State private var filterIntensity = 0.5
+    @State private var filterRadius = 0.5
+    @State private var filterScale = 0.5
+    
     @State private var showingImagePicker = false
     @State private var showingFilterSheet = false
+    @State private var showingStateAlert = false
+    
+    @State private var alertTitle = ""
+    @State private var alertMessage = ""
     
     @State private var currentFilter: CIFilter = CIFilter.sepiaTone()
     
@@ -34,7 +42,24 @@ struct ContentView: View {
                 self.applyProcessing()
             }
         )
-        
+        let radius = Binding<Double>(
+            get: {
+                self.filterRadius
+            },
+            set: {
+                self.filterRadius = $0
+                self.applyProcessing()
+            }
+        )
+        let scale = Binding<Double>(
+            get: {
+                self.filterScale
+            },
+            set: {
+                self.filterScale = $0
+                self.applyProcessing()
+            }
+        )
         return NavigationView {
             VStack {
                 ZStack {
@@ -53,23 +78,37 @@ struct ContentView: View {
                 .onTapGesture {
                     self.showingImagePicker = true
                 }
-                HStack {
-                    Text("Intensity")
-                    Slider(value: intensity)
+                VStack {
+                    HStack {
+                        Text("Intensity")
+                        Slider(value: intensity)
+                    }
+                    .padding(.vertical)
+                    HStack {
+                        Text("Radius")
+                        Slider(value: radius)
+                    }
+                    .padding(.vertical)
+                    HStack {
+                        Text("Scale")
+                        Slider(value: scale)
+                    }
+                    .padding(.vertical)
                 }
-                .padding(.vertical)
+                
                 HStack {
-                    Button("Change Filter") {
+                    Button(self.filterName(filter: currentFilter)) {
                         self.showingFilterSheet = true
                     }
                     Spacer()
                     Button("Save") {
-                        guard let processedImage = self.processedImage else { return }
+                        guard let processedImage = self.processedImage else { return self.showAlert(title: "Image Saved Failed", message: "Please add an image to save it.") }
                         
                         let imageSaver = ImageSaver()
                         
                         imageSaver.successHandler = {
                             print("Image Save Successfull!")
+                            self.showAlert(title: "Image Saved Successfully!", message: "Check your library for the new image you just created.")
                         }
                         
                         imageSaver.errorHandler = {
@@ -77,6 +116,9 @@ struct ContentView: View {
                         }
                         
                         imageSaver.writeToPhotoAlbum(image: processedImage)
+                    }
+                    .alert(isPresented: $showingStateAlert) {
+                        Alert(title: Text(alertTitle), message: Text(alertMessage), dismissButton: .default(Text("OK")))
                     }
                 }
             }
@@ -111,9 +153,9 @@ struct ContentView: View {
     func applyProcessing() {
         let inputKeys = currentFilter.inputKeys
         if inputKeys.contains(kCIInputIntensityKey) { currentFilter.setValue(filterIntensity, forKey: kCIInputIntensityKey) }
-        if inputKeys.contains(kCIInputRadiusKey) { currentFilter.setValue(filterIntensity, forKey: kCIInputRadiusKey) }
+        if inputKeys.contains(kCIInputRadiusKey) { currentFilter.setValue(filterRadius, forKey: kCIInputRadiusKey) }
         if inputKeys.contains(kCIInputScaleKey) {
-            currentFilter.setValue(filterIntensity, forKey: kCIInputScaleKey)
+            currentFilter.setValue(filterScale, forKey: kCIInputScaleKey)
         }
         
         guard let outputImage = currentFilter.outputImage else { return }
@@ -127,6 +169,32 @@ struct ContentView: View {
     func setFilter(_ filter: CIFilter) {
         currentFilter = filter
         loadImage()
+    }
+    
+    func showAlert(title: String, message: String) {
+        alertTitle = title
+        alertMessage = message
+        showingStateAlert = true
+    }
+    
+    func filterName(filter: CIFilter) -> String {
+        if filter.name == "CISepiaTone" {
+            return "Sepia"
+        } else if filter.name == "CICrystallize" {
+            return "Crystallize"
+        } else if filter.name == "CIEdges" {
+            return "Edges"
+        } else if filter.name == "CIGaussianBlur" {
+            return "Gaussian Blur"
+        } else if filter.name == "CIPixellate" {
+            return "Pixellate"
+        } else if filter.name == "CIVignette" {
+            return "Vignette"
+        } else if filter.name == "CIUnsharpMask" {
+            return "Unsharp Mask"
+        } else  {
+            return "Change Label"
+        }
     }
     
 }
