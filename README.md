@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 14 - BucketList - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2014%20-%20BucketList/Project14.md)
+- [Project 14 - BucketList - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2014%20-%20BucketList/Project14.md)
 
 ### :clipboard: Topics
 
@@ -110,6 +110,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 66 - [Project 13 - Instafilter - Part Five](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2013%20-%20Instafilter/Project13.md)
 - Day 67 - [Project 13 - Instafilter - Part Six](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2013%20-%20Instafilter/Project13.md)
 - Day 68 - [Project 14 - BucketList - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2014%20-%20BucketList/Project14.md)
+- Day 69 - [Project 14 - BucketList - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2014%20-%20BucketList/Project14.md)
 
 
 **Happy Learning!**
