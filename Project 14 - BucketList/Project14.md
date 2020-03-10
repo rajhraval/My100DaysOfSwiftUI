@@ -19,3 +19,12 @@ Today I learnt about:
 - Integrating MapKit with SwiftUI
 - Communicating with MapKit Coordinator and using MapKit Annotations
 - Integrating TouchID and FaceID with SwiftUI
+
+### Project 14 - Instafilter - Day 70 of 100DaysOfSwiftUI
+
+> Design is not just what it looks like and feels like; design is how it works - Steve Jobs
+
+Today I learnt about:
+
+- Working on advanced MapView concepts:  `MKPointAnnotations` using Custom Bindings
+- Customising MKMapView annotations and showing details of the annotations with the help of custom alert
