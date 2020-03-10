@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF11008A241781FE00930CC5 /* BlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF110089241781FE00930CC5 /* BlockView.swift */; };
 		CF25E9F623F9BE76000DEEAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25E9F523F9BE76000DEEAB /* AppDelegate.swift */; };
 		CF25E9F823F9BE76000DEEAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25E9F723F9BE76000DEEAB /* SceneDelegate.swift */; };
 		CF25E9FA23F9BE76000DEEAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25E9F923F9BE76000DEEAB /* ContentView.swift */; };
 		CF25E9FC23F9BE78000DEEAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF25E9FB23F9BE78000DEEAB /* Assets.xcassets */; };
 		CF25E9FF23F9BE78000DEEAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF25E9FE23F9BE78000DEEAB /* Preview Assets.xcassets */; };
 		CF25EA0223F9BE78000DEEAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF25EA0023F9BE78000DEEAB /* LaunchScreen.storyboard */; };
+		CFD095852417C3D50055314B /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD095842417C3D50055314B /* ButtonView.swift */; };
+		CFD50F47241761A10018B367 /* HabitInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD50F46241761A10018B367 /* HabitInfo.swift */; };
+		CFD50F492417633E0018B367 /* AddHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD50F482417633E0018B367 /* AddHabitView.swift */; };
+		CFD50F4B24176B780018B367 /* HabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD50F4A24176B780018B367 /* HabitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF110089241781FE00930CC5 /* BlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockView.swift; sourceTree = "<group>"; };
 		CF25E9F223F9BE76000DEEAB /* Habits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF25E9F523F9BE76000DEEAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF25E9F723F9BE76000DEEAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		CF25E9FE23F9BE78000DEEAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF25EA0123F9BE78000DEEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF25EA0323F9BE78000DEEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD095842417C3D50055314B /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		CFD50F46241761A10018B367 /* HabitInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitInfo.swift; sourceTree = SOURCE_ROOT; };
+		CFD50F482417633E0018B367 /* AddHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitView.swift; sourceTree = "<group>"; };
+		CFD50F4A24176B780018B367 /* HabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +66,14 @@
 		CF25E9F423F9BE76000DEEAB /* Habits */ = {
 			isa = PBXGroup;
 			children = (
+				CFD50F46241761A10018B367 /* HabitInfo.swift */,
+				CFD50F482417633E0018B367 /* AddHabitView.swift */,
+				CF110089241781FE00930CC5 /* BlockView.swift */,
 				CF25E9F523F9BE76000DEEAB /* AppDelegate.swift */,
 				CF25E9F723F9BE76000DEEAB /* SceneDelegate.swift */,
 				CF25E9F923F9BE76000DEEAB /* ContentView.swift */,
+				CFD50F4A24176B780018B367 /* HabitView.swift */,
+				CFD095842417C3D50055314B /* ButtonView.swift */,
 				CF25E9FB23F9BE78000DEEAB /* Assets.xcassets */,
 				CF25EA0023F9BE78000DEEAB /* LaunchScreen.storyboard */,
 				CF25EA0323F9BE78000DEEAB /* Info.plist */,
@@ -148,7 +163,12 @@
 			files = (
 				CF25E9F623F9BE76000DEEAB /* AppDelegate.swift in Sources */,
 				CF25E9F823F9BE76000DEEAB /* SceneDelegate.swift in Sources */,
+				CFD095852417C3D50055314B /* ButtonView.swift in Sources */,
+				CFD50F47241761A10018B367 /* HabitInfo.swift in Sources */,
+				CFD50F4B24176B780018B367 /* HabitView.swift in Sources */,
+				CF11008A241781FE00930CC5 /* BlockView.swift in Sources */,
 				CF25E9FA23F9BE76000DEEAB /* ContentView.swift in Sources */,
+				CFD50F492417633E0018B367 /* AddHabitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
