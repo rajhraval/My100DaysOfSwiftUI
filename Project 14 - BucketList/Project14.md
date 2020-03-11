@@ -28,3 +28,13 @@ Today I learnt about:
 
 - Working on advanced MapView concepts:  `MKPointAnnotations` using Custom Bindings
 - Customising MKMapView annotations and showing details of the annotations with the help of custom alert
+
+### Project 14 - Instafilter - Day 71 of 100DaysOfSwiftUI
+
+> It doesn’t matter how slowly you go, as long as you don’t stop - Confucius
+
+Today I learnt about:
+
+- Extending existing types to support ObservableObject
+- Downloading data using URLSession from the Wikipedia API
+- Sorting downloaded data by conforming the type to Comparable protocol
