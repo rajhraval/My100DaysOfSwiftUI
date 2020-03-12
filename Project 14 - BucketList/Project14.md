@@ -38,3 +38,13 @@ Today I learnt about:
 - Extending existing types to support ObservableObject
 - Downloading data using URLSession from the Wikipedia API
 - Sorting downloaded data by conforming the type to Comparable protocol
+
+### Project 14 - Instafilter - Day 72 of 100DaysOfSwiftUI
+
+> Ambition is the path to success, persistence is the vehicle you arrive in - William Eardley
+
+Today I learnt about:
+
+- Conforming class to MKPointAnnotation and Codable
+- Loading, saving and writing Codable data to the documents directory with complete file protection
+- Authenticating user using FaceID and TouchID to unlock data
