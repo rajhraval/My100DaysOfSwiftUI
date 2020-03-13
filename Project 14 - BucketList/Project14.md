@@ -48,3 +48,22 @@ Today I learnt about:
 - Conforming class to MKPointAnnotation and Codable
 - Loading, saving and writing Codable data to the documents directory with complete file protection
 - Authenticating user using FaceID and TouchID to unlock data
+
+### Project 14 - Instafilter - Day 73 of 100DaysOfSwiftUI
+
+> Unless you try to do something beyond what you have already mastered, you will never grow - Ralph Waldo Emerson
+
+Today I completed the challenges:
+
+- Adding modifiers inside a button for making it easier to tap
+- Creating a Reusable SwiftUIView 
+- Adding alert if biometric alert fails
+
+Project 14 - Summary:
+
+In this project I learnt about:
+
+- Integrating MapKit with SwiftUI
+- Integrating Local Authentication
+- Writing Usable Code
+- Writing and Saving data in the Documents Directory

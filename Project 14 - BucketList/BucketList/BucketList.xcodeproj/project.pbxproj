@@ -17,6 +17,7 @@
 		CF9A010B241932D100645F38 /* MKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9A010A241932D100645F38 /* MKPointAnnotation-ObservableObject.swift */; };
 		CF9A010D2419338D00645F38 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9A010C2419338D00645F38 /* EditView.swift */; };
 		CF9A010F241936A200645F38 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9A010E241936A200645F38 /* Result.swift */; };
+		CFA255FF241B8C3300321710 /* SecuredMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA255FE241B8C3300321710 /* SecuredMapView.swift */; };
 		CFC58CF724174FE200D41036 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC58CF624174FE200D41036 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		CF9A010A241932D100645F38 /* MKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
 		CF9A010C2419338D00645F38 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		CF9A010E241936A200645F38 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		CFA255FE241B8C3300321710 /* SecuredMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecuredMapView.swift; sourceTree = "<group>"; };
 		CFC58CF624174FE200D41036 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 				CF9A010A241932D100645F38 /* MKPointAnnotation-ObservableObject.swift */,
 				CF9A010C2419338D00645F38 /* EditView.swift */,
 				CF724D02241A8A810069A4F8 /* MKPointAnnotation-Codable.swift */,
+				CFA255FE241B8C3300321710 /* SecuredMapView.swift */,
 				CF9A010E241936A200645F38 /* Result.swift */,
 				CFC58CF624174FE200D41036 /* MapView.swift */,
 				CF1C2DAE241528AA004AE5A4 /* Assets.xcassets */,
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA255FF241B8C3300321710 /* SecuredMapView.swift in Sources */,
 				CF1C2DA9241528A8004AE5A4 /* AppDelegate.swift in Sources */,
 				CFC58CF724174FE200D41036 /* MapView.swift in Sources */,
 				CF9A010D2419338D00645F38 /* EditView.swift in Sources */,
