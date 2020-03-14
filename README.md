@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 15 - Accessibility Project - Part One]()
+- [Project 15 - Accessibility Project - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2015%20-%20AccessibilityProject/Project15.md)
 
 ### :clipboard: Topics
 
@@ -115,7 +115,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 71 - [Project 14 - BucketList - Part Four](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2014%20-%20BucketList/Project14.md)
 - Day 72 - [Project 14 - BucketList - Part Five](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2014%20-%20BucketList/Project14.md)
 - Day 73 - [Project 14 - BucketList - Part Six](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2014%20-%20BucketList/Project14.md)
-- Day 74 - [Project 15 - Accessibility Project - Part One]()
+- Day 74 - [Project 15 - Accessibility Project - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2015%20-%20AccessibilityProject/Project15.md)
 
 
 **Happy Learning!**
