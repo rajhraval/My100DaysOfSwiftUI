@@ -28,10 +28,14 @@ struct ContentView: View {
                     .padding()
                     .autocapitalization(.none)
                 
-                List(usedWords, id: \.self) {
-                    Text($0)
-                        .font(.system(size: 24.0))
-                    Image(systemName: "\($0.count).circle")
+                List(usedWords, id: \.self) { word in
+                    HStack {
+                        Text(word)
+                            .font(.system(size: 24.0))
+                        Image(systemName: "\(word.count).circle")
+                    }
+                    .accessibilityElement(children: .ignore)
+                    .accessibility(label: Text("\(word), \(word.count) letters"))
                 }
                 
                 Text("Score: \(score)")

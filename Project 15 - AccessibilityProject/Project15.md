@@ -11,3 +11,13 @@ Today I learnt about:
 - Adding and removing accessibility traits
 - Hiding/ignoring and combining/grouping accessibility data
 - Reading the value from controls like Slider
+
+### Project 15 - Accessibility Project - Day 75 of 100DaysOfSwiftUI
+
+> Accessibility is not charity. Accessibility is not generosity. Accessibility is not an amenity. Accessibility is not a gratuity. You don’t bestow access – you ensure it. - Gregory Mansfield 
+
+Today I practiced on:
+
+- Adding Accessiblity to GuessTheFlag Project adding label and hints
+- Adding Accessiblity to WordScramble Project combining view into single trait
+- Adding Accessiblity to Bookworkm Project adding and removing traits
