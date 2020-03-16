@@ -23,12 +23,14 @@ struct ContentView: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 44, height: 44)
+                        .accessibility(removeTraits: .isImage)
                     
                     VStack(alignment: .leading) {
                         Text(mission.displayName)
                             .font(.headline)
                         Text(self.showName ? mission.formattedCrew: mission.formattedLaunchDate)
                     }
+                    .accessibilityElement(children: .combine)
                 }
             }
             .navigationBarTitle("Moonshot")
@@ -37,6 +39,7 @@ struct ContentView: View {
                     Toggle(isOn: $showName) {
                         Text("Show Crew Names")
                     }
+                    .accessibility(label: Text("Show Crew Names instead of mission launch date"))
                 }
             )
         }

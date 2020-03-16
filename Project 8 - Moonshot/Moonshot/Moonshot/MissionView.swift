@@ -27,6 +27,7 @@ struct MissionView: View {
                         .scaledToFit()
                         .frame(maxWidth: geometry.size.width * 0.7)
                         .padding(.top)
+                        .accessibility(value: Text("Image of Mission \(self.mission.displayName) Badge"))
                     Text(self.mission.description)
                         .padding()
                     ForEach(self.astronauts, id: \.role) { crewMember in
@@ -37,12 +38,14 @@ struct MissionView: View {
                                     .frame(width: 83, height: 60)
                                     .clipShape(Circle())
                                     .overlay(Circle().stroke(Color.primary, lineWidth: 1))
+                                    .accessibility(removeTraits: .isImage)
                                 VStack(alignment: .leading) {
                                     Text(crewMember.astronaut.name)
                                         .font(.headline)
                                     Text(crewMember.role)
                                         .foregroundColor(crewMember.role == "Commander" ? .blue : .secondary)
                                 }
+                                .accessibilityElement(children: .combine)
                                 Spacer()
                             }
                             .padding(.horizontal)

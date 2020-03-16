@@ -22,6 +22,7 @@ struct AstronautView: View {
                         .scaledToFit()
                         .frame(width: geometry.size.width)
                         .layoutPriority(1)
+                        .accessibility(label: Text("Image of \(self.astronaut.name)"))
                     Text(self.astronaut.description)
                         .padding()
                         .layoutPriority(2)

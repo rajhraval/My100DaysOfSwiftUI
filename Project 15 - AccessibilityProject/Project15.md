@@ -21,3 +21,24 @@ Today I practiced on:
 - Adding Accessiblity to GuessTheFlag Project adding label and hints
 - Adding Accessiblity to WordScramble Project combining view into single trait
 - Adding Accessiblity to Bookworkm Project adding and removing traits
+
+### Project 15 - Accessibility Project - Day 76 of 100DaysOfSwiftUI
+
+> Accessible design is good design – it benefits people who don’t have disabilities as well as people who do - Steve Ballmer
+
+Today I completed the challenges:
+
+- Adding Accessiblity to CupcakeCorner Project removing accessibility trait of the image
+- Adding Accessiblity to BetterRest Project by adding accessibility to Steppers and Pickers
+- Adding Accessiblity to Moonshot Project
+
+Project 15 - Summary:
+
+In this project, I learnt about:
+
+- Accesibility using VoiceOver
+- Accessibility Traits
+- Accessibility parent/child view behaviour
+- Accessibility combining and ignoring views
+
+
