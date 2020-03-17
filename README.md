@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 15 - Accessibility Project - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2015%20-%20AccessibilityProject/Project15.md)
+- [Milestone Project - 13 to 15 - CatchUp]() - Under Development
 
 ### :clipboard: Topics
 
@@ -118,6 +118,10 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 74 - [Project 15 - Accessibility Project - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2015%20-%20AccessibilityProject/Project15.md)
 - Day 75 - [Project 15 - Accessibility Project - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2015%20-%20AccessibilityProject/Project15.md)
 - Day 76 - [Project 15 - Accessibility Project - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2015%20-%20AccessibilityProject/Project15.md)
+
+**Consolidation Six**
+
+- Day 77 - [Milestone Project - 13 to 15 - CatchUp]() - Under Development
 
 
 **Happy Learning!**
