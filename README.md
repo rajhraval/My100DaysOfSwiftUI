@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Milestone Project - 13 to 15 - CatchUp]() - Under Development
+- [Time for MapKit]() - Under Development
 
 ### :clipboard: Topics
 
@@ -122,6 +122,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 **Consolidation Six**
 
 - Day 77 - [Milestone Project - 13 to 15 - CatchUp]() - Under Development
+- Day 78 - [Time for MapKit]()
 
 
 **Happy Learning!**
