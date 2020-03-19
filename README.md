@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Time for MapKit]() - Under Development
+- [Project 16 - HotProspects - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2016%20-%20HotProspects/Project16.md)
 
 ### :clipboard: Topics
 
@@ -126,6 +126,6 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 **Controlling UI flow**
 
-- Day 79 - [Project 16 - HotProspects - Part One]()
+- Day 79 - [Project 16 - HotProspects - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2016%20-%20HotProspects/Project16.md)
 
 **Happy Learning!**
