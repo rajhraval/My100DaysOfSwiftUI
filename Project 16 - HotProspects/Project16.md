@@ -19,3 +19,13 @@ Today I learnt about:
 - Swift Result Type
 - Manually publishing ObservableObject changes
 - Image interpolation in SwiftUI
+
+### Project 16 - HotProspects - Day 81 of 100DaysOfSwiftUI
+
+> More options, More problems (Rule for designing great user experiences) - Scott Belsky
+
+Today I learnt about:
+
+- Creating context menus
+- Creating, requesting permssions and scheduling local notifications
+- Adding Swift package dependencies in Xcode
