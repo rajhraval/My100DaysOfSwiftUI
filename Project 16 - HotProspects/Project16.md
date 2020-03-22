@@ -29,3 +29,13 @@ Today I learnt about:
 - Creating context menus
 - Creating, requesting permssions and scheduling local notifications
 - Adding Swift package dependencies in Xcode
+
+### Project 16 - HotProspects - Day 82 of 100DaysOfSwiftUI
+
+> The most difficult thing is the decision to act, the rest is merely tenacity - Amelia Earhart
+
+Today I learned about:
+
+- Building up the Tab Bar with three instances of different filters
+- Sharing data across all tabs using `@EnvironmentObject`
+- Dynamic filtering List in SwiftUI using `filter()`
