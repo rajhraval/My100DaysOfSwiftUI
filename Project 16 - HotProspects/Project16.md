@@ -39,3 +39,13 @@ Today I learned about:
 - Building up the Tab Bar with three instances of different filters
 - Sharing data across all tabs using `@EnvironmentObject`
 - Dynamic filtering List in SwiftUI using `filter()`
+
+### Project 16 - HotProspects - Day 83 of 100DaysOfSwiftUI
+
+> Programs must be written for people to read, and only incidentally for machines to execute - Structure and Interpretation of Computer Programs Book
+
+Today I learned about:
+
+- Generating a QRCode from String using CoreImage 
+- Scanning a QRCode and adding to the list by adding a depedency using the Swift Package Manager
+- Marking contacts as Contacted/Uncontacted using ContextMenus
