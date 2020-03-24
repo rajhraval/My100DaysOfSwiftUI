@@ -49,3 +49,13 @@ Today I learned about:
 - Generating a QRCode from String using CoreImage 
 - Scanning a QRCode and adding to the list by adding a depedency using the Swift Package Manager
 - Marking contacts as Contacted/Uncontacted using ContextMenus
+
+### Project 16 - HotProspects - Day 84 of 100DaysOfSwiftUI
+
+> Enthusiasm is common; endurance is rare - Angela Duckworth
+
+Today I learnt about:
+
+- Saving and loading data using UserDefaults
+- Encapsulating objects and working with AccessControl
+- Posting UserNotifications
