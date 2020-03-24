@@ -9,8 +9,40 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var contacts = Contacts()
+    
+    @State private var showingAddContact = false
+    
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            List {
+                ForEach(contacts.contacts) { contact in
+                    HStack {
+                        ZStack {
+                            Circle()
+                                .frame(width: 18, height: 18)
+                            contact.image
+                                .frame(width: 18, height: 18)
+                        }
+                        Text(contact.name)
+                            .font(.headline)
+                    }
+                }
+            }
+            .navigationBarTitle("CatchUp")
+            .navigationBarItems(trailing: Button(action: {
+                self.showingAddContact = true
+            }){
+                HStack {
+                    Image(systemName: "plus")
+                    Text("Add")
+                }
+            })
+            .sheet(isPresented: $showingAddContact) {
+                AddContactView(contacts: self.contacts)
+            }
+        }
     }
 }
 
