@@ -14,11 +14,17 @@ enum FilterType {
     case none, contacted, uncontacted
 }
 
+enum FilterOption {
+    case name, mostRecent
+}
+
 struct ProspectsView: View {
     
     @EnvironmentObject var prospects: Prospects
     
     @State private var isShowingScanner = false
+    @State private var showingFilterSheet = false
+    @State private var filterOption: FilterOption = .name
     
     let filter: FilterType
     
@@ -34,13 +40,15 @@ struct ProspectsView: View {
     }
     
     var filteredProspects: [Prospect] {
+        let filteredData = filterOption == .name ? prospects.people.sorted { $0.name < $1.name} : prospects.people.sorted { $0.dateAdded > $1.dateAdded }
+        
         switch filter {
         case .none:
-            return prospects.people
+            return filteredData
         case .contacted:
-            return prospects.people.filter { $0.isContacted }
+            return filteredData.filter { $0.isContacted }
         case .uncontacted:
-            return prospects.people.filter { !$0.isContacted }
+            return filteredData.filter { !$0.isContacted }
         }
     }
     
@@ -48,33 +56,56 @@ struct ProspectsView: View {
         NavigationView {
             List {
                 ForEach(filteredProspects) { prospect in
-                    VStack(alignment: .leading) {
-                        Text(prospect.name)
-                            .font(.headline)
-                        Text(prospect.emailAddress)
-                            .foregroundColor(.secondary)
-                    }
-                    .contextMenu {
-                        Button(prospect.isContacted ? "Mark Uncontacted" : "Mark Contacted") {
-                            self.prospects.toggle(prospect)
+                    HStack {
+                        VStack(alignment: .leading) {
+                            Text(prospect.name)
+                                .font(.headline)
+                            Text(prospect.emailAddress)
+                                .foregroundColor(.secondary)
                         }
-                        if !prospect.isContacted {
-                            Button("Remind Me") {
-                                self.addNotification(for: prospect)
+                        .contextMenu {
+                            Button(prospect.isContacted ? "Mark Uncontacted" : "Mark Contacted") {
+                                self.prospects.toggle(prospect)
                             }
+                            if !prospect.isContacted {
+                                Button("Remind Me") {
+                                    self.addNotification(for: prospect)
+                                }
+                            }
+                        }
+                        Spacer()
+                        if self.filter == .none {
+                            Image(systemName: prospect.isContacted ? "phone.down" : "phone.fill")
+                                .foregroundColor(prospect.isContacted ? .green : .red)
+                            Text(prospect.isContacted ? "Contacted" : "Not Contacted")
+                                .foregroundColor(prospect.isContacted ? .green : .red)
+                                .font(.caption)
                         }
                     }
                 }
             }
             .navigationBarTitle(title)
-            .navigationBarItems(trailing: Button(action: {
-                self.isShowingScanner = true
+            .navigationBarItems(
+                leading: Button(action: {
+                    self.showingFilterSheet = true
             }) {
-                Image(systemName: "qrcode.viewfinder")
-                Text("Scan")
+                    Text("Filter")
+                },
+                trailing: Button(action: {
+                    self.isShowingScanner = true
+                }){
+                    Image(systemName: "qrcode.viewfinder")
+                    Text("Scan")
             })
-                .sheet(isPresented: $isShowingScanner) {
-                    CodeScannerView(codeTypes: [.qr], simulatedData: "Paul Hudson\npaul@hackingwithswift.com", completion: self.handleScan)
+            .sheet(isPresented: $isShowingScanner) {
+                CodeScannerView(codeTypes: [.qr], simulatedData: "Paul Hudson\npaul@hackingwithswift.com", completion: self.handleScan)
+            }
+            .actionSheet(isPresented: $showingFilterSheet) {
+                ActionSheet(title: Text("Filter"), message: Text("Choose an option to filter"), buttons: [
+                    .default(Text("Name Alphabetically (A-Z)")) { self.filterOption = .name },
+                    .default(Text("Most Recent")) { self.filterOption = .mostRecent },
+                    .cancel()
+                ])
             }
         }
     }

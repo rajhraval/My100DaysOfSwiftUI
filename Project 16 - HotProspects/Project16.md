@@ -59,3 +59,25 @@ Today I learnt about:
 - Saving and loading data using UserDefaults
 - Encapsulating objects and working with AccessControl
 - Posting UserNotifications
+
+### Project 16 - HotProspects - Day 85 of 100DaysOfSwiftUI
+
+> If I have seen further it is by standing on the shoulders of giants - Sir Isaac Newton
+
+Today I completed the challenges:
+
+- Added image to show a prospect is contacted or not
+- Saving and loading data in the documents directory
+- Filtering using ActionSheet
+
+Project 16 - Summary:
+
+In this project, I learnt about:
+
+- UNUserNotifications
+- Encapsulation Principle
+- Access control using `fileprivate` and `private`
+- TabView
+- `filter` and `map`
+- QRCode generation using CoreImage
+- Adding third party dependency using Swift Package Manager

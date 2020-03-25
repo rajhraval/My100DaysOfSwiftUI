@@ -12,6 +12,7 @@ class Prospect: Identifiable, Codable {
     let id = UUID()
     var name = "Anonymous"
     var emailAddress = ""
+    var dateAdded = Date()
     fileprivate(set) var isContacted = false
 }
 
@@ -20,22 +21,20 @@ class Prospects: ObservableObject {
     @Published private(set) var people: [Prospect]
     
     static let saveKey = "SavedData"
+    static let savedPath = "SavedContacts"
     
     init() {
-        
-        if let data = UserDefaults.standard.data(forKey: Self.saveKey) {
-            if let decoded = try? JSONDecoder().decode([Prospect].self, from: data) {
-                self.people = decoded
-                return
-            }
-        }
-        
         self.people = []
+        self.load()
     }
     
     private func save() {
-        if let encoded = try? JSONEncoder().encode(people) {
-            UserDefaults.standard.set(encoded, forKey: Self.saveKey)
+        do {
+            let filename = getDocumentsDirectory().appendingPathComponent(Self.savedPath)
+            let data = try JSONEncoder().encode(self.people)
+            try data.write(to: filename, options: [.atomicWrite, .completeFileProtection])
+        } catch {
+            print("Unable to save data.")
         }
     }
     
@@ -48,6 +47,21 @@ class Prospects: ObservableObject {
     func add(_ prospect: Prospect) {
         people.append(prospect)
         save()
+    }
+    
+    func getDocumentsDirectory() -> URL {
+        let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+        return paths[0]
+    }
+    
+    func load() {
+        let filename = getDocumentsDirectory().appendingPathComponent(Self.savedPath)
+        do {
+            let data = try Data(contentsOf: filename)
+            people = try JSONDecoder().decode([Prospect].self, from: data)
+        } catch {
+            print("Unable to load saved Data")
+        }
     }
     
 }

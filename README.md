@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 16 - HotProspects - Part Six](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2016%20-%20HotProspects/Project16.md)
+- [Project 16 - HotProspects - Part Seven](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2016%20-%20HotProspects/Project16.md)
 
 ### :clipboard: Topics
 
@@ -131,6 +131,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 81 - [Project 16 - HotProspects - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2016%20-%20HotProspects/Project16.md)
 - Day 82 - [Project 16 - HotProspects - Part Four](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2016%20-%20HotProspects/Project16.md)
 - Day 83 - [Project 16 - HotProspects - Part Five](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2016%20-%20HotProspects/Project16.md)
-- Day 83 - [Project 16 - HotProspects - Part Six](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2016%20-%20HotProspects/Project16.md)
+- Day 84 - [Project 16 - HotProspects - Part Six](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2016%20-%20HotProspects/Project16.md)
+- Day 85 - [Project 16 - HotProspects - Part Seven](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2016%20-%20HotProspects/Project16.md)
 
 **Happy Learning!**
