@@ -13,6 +13,7 @@
 		CF1B1549242143FF004350A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1B1548242143FF004350A5 /* Assets.xcassets */; };
 		CF1B154C242143FF004350A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1B154B242143FF004350A5 /* Preview Assets.xcassets */; };
 		CF1B154F242143FF004350A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1B154D242143FF004350A5 /* LaunchScreen.storyboard */; };
+		CF24F7A1242D1DC1009AD7B0 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF24F7A0242D1DC1009AD7B0 /* ImagePicker.swift */; };
 		CFA7267F242A64E500D38482 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7267E242A64E500D38482 /* Contacts.swift */; };
 		CFA72681242A650D00D38482 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA72680242A650D00D38482 /* AddContactView.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		CF1B154B242143FF004350A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF1B154E242143FF004350A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF1B1550242143FF004350A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF24F7A0242D1DC1009AD7B0 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		CFA7267E242A64E500D38482 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		CFA72680242A650D00D38482 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +66,7 @@
 				CF1B1544242143FD004350A5 /* SceneDelegate.swift */,
 				CFA7267E242A64E500D38482 /* Contacts.swift */,
 				CFA72680242A650D00D38482 /* AddContactView.swift */,
+				CF24F7A0242D1DC1009AD7B0 /* ImagePicker.swift */,
 				CF1B1546242143FD004350A5 /* ContentView.swift */,
 				CF1B1548242143FF004350A5 /* Assets.xcassets */,
 				CF1B154D242143FF004350A5 /* LaunchScreen.storyboard */,
@@ -155,6 +158,7 @@
 				CFA7267F242A64E500D38482 /* Contacts.swift in Sources */,
 				CFA72681242A650D00D38482 /* AddContactView.swift in Sources */,
 				CF1B1543242143FD004350A5 /* AppDelegate.swift in Sources */,
+				CF24F7A1242D1DC1009AD7B0 /* ImagePicker.swift in Sources */,
 				CF1B1545242143FD004350A5 /* SceneDelegate.swift in Sources */,
 				CF1B1547242143FD004350A5 /* ContentView.swift in Sources */,
 			);

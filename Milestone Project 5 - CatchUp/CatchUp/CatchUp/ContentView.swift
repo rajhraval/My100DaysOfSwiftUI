@@ -21,9 +21,11 @@ struct ContentView: View {
                     HStack {
                         ZStack {
                             Circle()
-                                .frame(width: 18, height: 18)
-                            contact.image
-                                .frame(width: 18, height: 18)
+                                .frame(width: 36, height: 36)
+                            contact.image?
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 36, height: 36)
                         }
                         Text(contact.name)
                             .font(.headline)

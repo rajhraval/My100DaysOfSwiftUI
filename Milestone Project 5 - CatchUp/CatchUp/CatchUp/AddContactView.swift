@@ -15,7 +15,10 @@ struct AddContactView: View {
     @ObservedObject var contacts: Contacts
     
     @State private var image: Image?
+    @State private var inputImage: UIImage?
     @State private var name = ""
+    
+    @State private var showImagePicker = false
     
     var body: some View {
         NavigationView {
@@ -37,6 +40,9 @@ struct AddContactView: View {
                                 .frame(width: 24, height: 24)
                         }
                     }
+                    .onTapGesture {
+                        self.showImagePicker = true
+                    }
                 }
                 Section(header: Text("Name of the Contact")) {
                     TextField("John Appleseed", text: $name)
@@ -50,6 +56,9 @@ struct AddContactView: View {
             }){
                 Text("Add Contact")
             })
+                .sheet(isPresented: $showImagePicker) {
+                    ImagePicker(image: self.$inputImage)
+            }
         }
     }
 }

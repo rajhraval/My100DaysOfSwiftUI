@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 17 - Flashzilla - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2017%20-%20Flashzilla/Project17.md)
+- [Project 17 - Flashzilla - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2017%20-%20Flashzilla/Project17.md)
 
 ### :clipboard: Topics
 
@@ -134,5 +134,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 84 - [Project 16 - HotProspects - Part Six](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2016%20-%20HotProspects/Project16.md)
 - Day 85 - [Project 16 - HotProspects - Part Seven](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2016%20-%20HotProspects/Project16.md)
 - Day 86 - [Project 17 - Flashzilla - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2017%20-%20Flashzilla/Project17.md)
+- Day 87 - [Project 17 - Flashzilla - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2017%20-%20Flashzilla/Project17.md)
+
 
 **Happy Learning!**
