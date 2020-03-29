@@ -10,6 +10,8 @@ import SwiftUI
 
 struct CardView: View {
     
+    @Environment(\.accessibilityDifferentiateWithoutColor) var differentiateWithoutColor
+    
     @State private var isShowingAnswer = false
     @State private var offset = CGSize.zero
     
@@ -20,8 +22,19 @@ struct CardView: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 25, style: .continuous)
-                .fill(Color.white)
+                .fill(
+                    differentiateWithoutColor
+                        ? Color.white :
+                        Color.white
+                            .opacity(1 - Double(abs(offset.width / 50)))
+                )
                 .shadow(radius: 10)
+                .background(
+                    differentiateWithoutColor
+                    ? nil :
+                        RoundedRectangle(cornerRadius: 25, style: .continuous)
+                            .fill(offset.width > 0 ? Color.green : Color.red)
+                )
             
             VStack {
                 Text(card.prompt)
@@ -37,6 +50,26 @@ struct CardView: View {
             }
             .padding(20)
             .multilineTextAlignment(.center)
+            if differentiateWithoutColor {
+                VStack {
+                    Spacer()
+                    
+                    HStack {
+                        Image(systemName: "xmark.circle")
+                            .padding()
+                            .background(Color.black.opacity(0.7))
+                            .clipShape(Circle())
+                        Spacer()
+                        Image(systemName: "checkmark.circle")
+                            .padding()
+                            .background(Color.black.opacity(0.7))
+                            .clipShape(Circle())
+                    }
+                    .foregroundColor(.white)
+                    .font(.largeTitle)
+                    .padding()
+                }
+            }
         }
         .frame(width: 450, height: 250)
         .rotationEffect(.degrees(Double(offset.width / 5)))

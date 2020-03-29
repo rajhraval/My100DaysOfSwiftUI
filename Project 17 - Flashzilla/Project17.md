@@ -30,3 +30,13 @@ Today I learned about:
 - Creating a CardView
 - Creating a CardView stack
 - Creating a DragGesture for the CardView and moving it with the help of `offset()`
+
+### Project 17 - Flashzilla - Day 89 of 100DaysOfSwiftUI
+
+> Accessibility allows us to tap into everyone’s potential - Debra Ruh
+
+Today I learned about:
+
+- Coloring the CardView while swiping left and right offsets with Accessbility (Differentiate Color)
+- Counting down with Timer and puasing the timer while app is background
+- Disabling Card Interactivity using `allowsHitTesting()` once time is over and reset the stack again
