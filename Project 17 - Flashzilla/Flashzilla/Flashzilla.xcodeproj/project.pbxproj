@@ -13,6 +13,7 @@
 		CF1C160E242C7AB500181132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1C160D242C7AB500181132 /* Assets.xcassets */; };
 		CF1C1611242C7AB500181132 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1C1610242C7AB500181132 /* Preview Assets.xcassets */; };
 		CF1C1614242C7AB600181132 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1C1612242C7AB600181132 /* LaunchScreen.storyboard */; };
+		CF4689752431A425008494AF /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4689742431A425008494AF /* EditCards.swift */; };
 		CFA3ED6C242F0BFF0045EA18 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA3ED6B242F0BFF0045EA18 /* Card.swift */; };
 		CFA3ED6E242F0D210045EA18 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA3ED6D242F0D210045EA18 /* CardView.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		CF1C1610242C7AB500181132 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF1C1613242C7AB600181132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF1C1615242C7AB600181132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4689742431A425008494AF /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 		CFA3ED6B242F0BFF0045EA18 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = SOURCE_ROOT; };
 		CFA3ED6D242F0D210045EA18 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				CFA3ED6B242F0BFF0045EA18 /* Card.swift */,
+				CF4689742431A425008494AF /* EditCards.swift */,
 				CF1C1607242C7AB300181132 /* AppDelegate.swift */,
 				CF1C1609242C7AB300181132 /* SceneDelegate.swift */,
 				CF1C160B242C7AB300181132 /* ContentView.swift */,
@@ -155,6 +158,7 @@
 				CF1C1608242C7AB300181132 /* AppDelegate.swift in Sources */,
 				CF1C160A242C7AB300181132 /* SceneDelegate.swift in Sources */,
 				CF1C160C242C7AB300181132 /* ContentView.swift in Sources */,
+				CF4689752431A425008494AF /* EditCards.swift in Sources */,
 				CFA3ED6C242F0BFF0045EA18 /* Card.swift in Sources */,
 				CFA3ED6E242F0D210045EA18 /* CardView.swift in Sources */,
 			);

@@ -40,3 +40,13 @@ Today I learned about:
 - Coloring the CardView while swiping left and right offsets with Accessbility (Differentiate Color)
 - Counting down with Timer and puasing the timer while app is background
 - Disabling Card Interactivity using `allowsHitTesting()` once time is over and reset the stack again
+
+### Project 17 - Flashzilla - Day 90 of 100DaysOfSwiftUI
+
+> if debugging is the process of removing bugs, then programming must be the process of putting them in - Edsger Dijkstra
+
+Today I learned about:
+
+- Making haptic feedback on swiping right or wrong card using `UINotificationFeedbackGenerator()`
+- Fixing bugs and enhancing VoiceOver support
+- Adding and Deleting Cards, `StackNavigationViewStyle()`
