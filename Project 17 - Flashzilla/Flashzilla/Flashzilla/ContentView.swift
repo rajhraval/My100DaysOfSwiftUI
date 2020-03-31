@@ -7,16 +7,19 @@
 //
 
 import SwiftUI
+import CoreHaptics
 
 struct ContentView: View {
     
     @Environment(\.accessibilityDifferentiateWithoutColor) var differentiateWithoutColor
     @Environment(\.accessibilityEnabled) var accessibilityEnabled
     
+    @State private var engine: CHHapticEngine?
     @State private var cards = [Card]()
     @State private var timeRemaining = 100
     @State private var isActive = true
     @State private var showingEditScreen = false
+    @State private var showingSettingScreen = false
     
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
@@ -51,6 +54,21 @@ struct ContentView: View {
                                     .clipShape(Circle())
                             }
                         }
+                        
+                        
+                        HStack {
+                            Spacer()
+                            
+                            Button(action: {
+                                self.showingSettingScreen = true
+                            }) {
+                                Image(systemName: "gear")
+                                    .padding()
+                                    .background(Color.black.opacity(0.7))
+                                    .clipShape(Circle())
+                            }
+                        }
+                        
                         Spacer()
                     }
                     .foregroundColor(.white)
@@ -108,6 +126,16 @@ struct ContentView: View {
                     }
                 }
                 .allowsHitTesting(timeRemaining > 0)
+                if timeRemaining == 0 {
+                    Text("GAME OVER")
+                        .padding()
+                        .background(Color.white)
+                        .foregroundColor(.black)
+                        .clipShape(Capsule())
+                        .onAppear(perform: removeAllCards)
+                    Spacer()
+                        .frame(height: 74)
+                }
                 if cards.isEmpty {
                     Button("Start Again", action: resetCards)
                         .padding()
@@ -134,6 +162,9 @@ struct ContentView: View {
         .sheet(isPresented: $showingEditScreen, onDismiss: resetCards) {
             EditCards()
         }
+        .sheet(isPresented: $showingSettingScreen) {
+            SettingsView()
+        }
         .onAppear(perform: resetCards)
     }
     
@@ -151,11 +182,47 @@ struct ContentView: View {
         loadData()
     }
     
+    func removeAllCards() {
+        cards.removeAll()
+        prepareAndPerformHaptics()
+    }
+    
     func loadData() {
         if let data = UserDefaults.standard.data(forKey: "Cards") {
             if let decoded = try? JSONDecoder().decode([Card].self, from: data) {
                 self.cards = decoded
             }
+        }
+    }
+    
+    func prepareAndPerformHaptics() {
+        guard CHHapticEngine.capabilitiesForHardware().supportsHaptics else { return }
+        
+        do {
+            self.engine = try CHHapticEngine()
+            try engine?.start()
+            performCustomHaptics()
+        } catch {
+            print("There was an error creating the engine: \(error.localizedDescription)")
+        }
+    }
+    
+    func performCustomHaptics() {
+        guard CHHapticEngine.capabilitiesForHardware().supportsHaptics else { return }
+        var events = [CHHapticEvent]()
+        
+        let intensity = CHHapticEventParameter(parameterID: .hapticIntensity, value: 1)
+        let sharpness = CHHapticEventParameter(parameterID: .hapticSharpness, value: 1)
+        
+        let event = CHHapticEvent(eventType: .hapticTransient, parameters: [intensity, sharpness], relativeTime: 0)
+        events.append(event)
+        
+        do {
+            let pattern = try CHHapticPattern(events: events, parameters: [])
+            let player = try engine?.makePlayer(with: pattern)
+            try player?.start(atTime: 0)
+        } catch {
+            print("Failed to play pattern: \(error.localizedDescription)")
         }
     }
     

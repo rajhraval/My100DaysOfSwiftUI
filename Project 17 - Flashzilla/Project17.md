@@ -50,3 +50,21 @@ Today I learned about:
 - Making haptic feedback on swiping right or wrong card using `UINotificationFeedbackGenerator()`
 - Fixing bugs and enhancing VoiceOver support
 - Adding and Deleting Cards, `StackNavigationViewStyle()`
+
+### Project 17 - Flashzilla - Day 91 of 100DaysOfSwiftUI
+
+> Things do not happen – things are made to happen - John F Kennedy
+
+Today I completed the Challenges:
+
+- Adding custom haptics when the cards are over
+- Created a Settings Views
+- Fixed the Card moving offset during the release
+
+Project 17 - Summary:
+
+In this project I learned about:
+
+- UINotificationFeedbackGenerator
+- Drag Gesture, Magnification and Rotation Gesture
+- CoreHaptics

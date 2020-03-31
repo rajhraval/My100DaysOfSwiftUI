@@ -16,6 +16,7 @@
 		CF4689752431A425008494AF /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4689742431A425008494AF /* EditCards.swift */; };
 		CFA3ED6C242F0BFF0045EA18 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA3ED6B242F0BFF0045EA18 /* Card.swift */; };
 		CFA3ED6E242F0D210045EA18 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA3ED6D242F0D210045EA18 /* CardView.swift */; };
+		CFF903392433AC3800DD07A4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF903382433AC3800DD07A4 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CF4689742431A425008494AF /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 		CFA3ED6B242F0BFF0045EA18 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = SOURCE_ROOT; };
 		CFA3ED6D242F0D210045EA18 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CFF903382433AC3800DD07A4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				CF1C1607242C7AB300181132 /* AppDelegate.swift */,
 				CF1C1609242C7AB300181132 /* SceneDelegate.swift */,
 				CF1C160B242C7AB300181132 /* ContentView.swift */,
+				CFF903382433AC3800DD07A4 /* SettingsView.swift */,
 				CFA3ED6D242F0D210045EA18 /* CardView.swift */,
 				CF1C160D242C7AB500181132 /* Assets.xcassets */,
 				CF1C1612242C7AB600181132 /* LaunchScreen.storyboard */,
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFF903392433AC3800DD07A4 /* SettingsView.swift in Sources */,
 				CF1C1608242C7AB300181132 /* AppDelegate.swift in Sources */,
 				CF1C160A242C7AB300181132 /* SceneDelegate.swift in Sources */,
 				CF1C160C242C7AB300181132 /* ContentView.swift in Sources */,
