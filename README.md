@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 18 - LayoutAndGeometry - Part One]()
+- [Project 18 - LayoutAndGeometry - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2018%20-%20LayoutAndGeometry/Project18.md)
 
 ### :clipboard: Topics
 
@@ -139,7 +139,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 89 - [Project 17 - Flashzilla - Part Four](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2017%20-%20Flashzilla/Project17.md)
 - Day 90 - [Project 17 - Flashzilla - Part Five](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2017%20-%20Flashzilla/Project17.md)
 - Day 91 - [Project 17 - Flashzilla - Part Six](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2017%20-%20Flashzilla/Project17.md)
-- Day 92 - [Project 18 - LayoutAndGeometry - Part One]()
+- Day 92 - [Project 18 - LayoutAndGeometry - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2018%20-%20LayoutAndGeometry/Project18.md)
 
 
 
