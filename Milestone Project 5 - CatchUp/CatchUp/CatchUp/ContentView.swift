@@ -10,39 +10,42 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @ObservedObject var contacts = Contacts()
+    @ObservedObject var contactItems = Contacts()
     
     @State private var showingAddContact = false
+    
+    let defaultImage = UIImage(systemName: "person")!
     
     var body: some View {
         NavigationView {
             List {
-                ForEach(contacts.contacts) { contact in
+                ForEach(contactItems.contacts) { contact in
                     HStack {
                         ZStack {
                             Circle()
-                                .frame(width: 36, height: 36)
-                            contact.image?
+                                .fill(Color.black)
+                                .frame(width: 64, height: 64)
+                            Image(uiImage: contact.image ?? self.defaultImage)
                                 .resizable()
                                 .scaledToFit()
-                                .frame(width: 36, height: 36)
+                                .frame(width: 64, height: 64)
+                                .clipShape(Circle())
                         }
                         Text(contact.name)
-                            .font(.headline)
                     }
                 }
             }
             .navigationBarTitle("CatchUp")
-            .navigationBarItems(trailing: Button(action: {
-                self.showingAddContact = true
-            }){
-                HStack {
+            .navigationBarItems(trailing:
+                Button(action: {
+                    self.showingAddContact = true
+                }) {
                     Image(systemName: "plus")
-                    Text("Add")
+                    Text("Add Contact")
                 }
-            })
+            )
             .sheet(isPresented: $showingAddContact) {
-                AddContactView(contacts: self.contacts)
+                AddContactView(contactItems: self.contactItems)
             }
         }
     }
