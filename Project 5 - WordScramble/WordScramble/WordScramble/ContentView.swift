@@ -28,14 +28,29 @@ struct ContentView: View {
                     .padding()
                     .autocapitalization(.none)
                 
-                List(usedWords, id: \.self) { word in
-                    HStack {
-                        Text(word)
-                            .font(.system(size: 24.0))
-                        Image(systemName: "\(word.count).circle")
+                GeometryReader { fullView in
+                    ScrollView(.vertical) {
+                        ForEach(0..<self.usedWords.count, id: \.self) { index in
+                            GeometryReader { geo in
+                                HStack {
+                                Image(systemName: "\(self.usedWords[index].count).circle")
+                                    .foregroundColor(Color(red: Double(geo.frame(in: .global).minY / fullView.size.height),
+                                    green: 0.9,
+                                    blue: 0.1))
+                                Text("\(self.usedWords[index])")
+                                    .font(.title)
+                                    .foregroundColor(Color(red: Double(geo.frame(in: .global).minY / fullView.size.height),
+                                    green: 0.1,
+                                    blue: 0.2))
+                                }
+                                .frame(width: fullView.size.width, alignment: Alignment.leading)
+                                .offset(x: (geo.frame(in: .global).minY - (fullView.size.height) > 8 ? geo.frame(in: .global).minY - (fullView.size.height) : 8),
+                                        y: 0)
+                                
+                            }
+                            .frame(height: 40)
+                        }
                     }
-                    .accessibilityElement(children: .ignore)
-                    .accessibility(label: Text("\(word), \(word.count) letters"))
                 }
                 
                 Text("Score: \(score)")

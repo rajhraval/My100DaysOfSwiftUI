@@ -7,11 +7,21 @@
 //
 
 import SwiftUI
+import MapKit
 
-struct Contact: Identifiable {
+class Contact: Identifiable {
     let id = UUID()
-    let name: String
-    let image: UIImage?
+    var name: String = "Anon"
+    var image: UIImage? = nil
+    var latitude: CLLocationDegrees = 0.0
+    var longitude: CLLocationDegrees = 0.0
+    
+    init(name: String, image: UIImage?, latitude: CLLocationDegrees, longitude: CLLocationDegrees) {
+        self.name = name
+        self.image = image
+        self.latitude = latitude
+        self.longitude = longitude
+    }
 }
 
 class Contacts: ObservableObject {
@@ -19,5 +29,9 @@ class Contacts: ObservableObject {
     
     init() {
         self.contacts = []
+    }
+    
+    func add(_ contact: Contact) {
+        contacts.append(contact)
     }
 }

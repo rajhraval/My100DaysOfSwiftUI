@@ -13,9 +13,12 @@
 		CF1B1549242143FF004350A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1B1548242143FF004350A5 /* Assets.xcassets */; };
 		CF1B154C242143FF004350A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1B154B242143FF004350A5 /* Preview Assets.xcassets */; };
 		CF1B154F242143FF004350A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1B154D242143FF004350A5 /* LaunchScreen.storyboard */; };
+		CF595EA72435D98E0073F1EC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF595EA62435D98E0073F1EC /* DetailView.swift */; };
+		CF595EA92435E6130073F1EC /* ContactMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF595EA82435E6130073F1EC /* ContactMapView.swift */; };
 		CFA2F7532434CB52002721DC /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA2F7522434CB52002721DC /* Contacts.swift */; };
 		CFA2F7552434D160002721DC /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA2F7542434D160002721DC /* AddContactView.swift */; };
 		CFA2F7572434E6A4002721DC /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA2F7562434E6A4002721DC /* ImagePicker.swift */; };
+		CFAB76912435B2A500BEBDCF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAB76902435B2A500BEBDCF /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +30,12 @@
 		CF1B154B242143FF004350A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF1B154E242143FF004350A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF1B1550242143FF004350A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF595EA62435D98E0073F1EC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CF595EA82435E6130073F1EC /* ContactMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactMapView.swift; sourceTree = "<group>"; };
 		CFA2F7522434CB52002721DC /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		CFA2F7542434D160002721DC /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
 		CFA2F7562434E6A4002721DC /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		CFAB76902435B2A500BEBDCF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +72,10 @@
 				CF1B1544242143FD004350A5 /* SceneDelegate.swift */,
 				CF1B1546242143FD004350A5 /* ContentView.swift */,
 				CFA2F7562434E6A4002721DC /* ImagePicker.swift */,
+				CFAB76902435B2A500BEBDCF /* MapView.swift */,
+				CF595EA62435D98E0073F1EC /* DetailView.swift */,
 				CFA2F7542434D160002721DC /* AddContactView.swift */,
+				CF595EA82435E6130073F1EC /* ContactMapView.swift */,
 				CFA2F7522434CB52002721DC /* Contacts.swift */,
 				CF1B1548242143FF004350A5 /* Assets.xcassets */,
 				CF1B154D242143FF004350A5 /* LaunchScreen.storyboard */,
@@ -155,12 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFAB76912435B2A500BEBDCF /* MapView.swift in Sources */,
+				CF595EA72435D98E0073F1EC /* DetailView.swift in Sources */,
 				CFA2F7532434CB52002721DC /* Contacts.swift in Sources */,
 				CFA2F7552434D160002721DC /* AddContactView.swift in Sources */,
 				CF1B1543242143FD004350A5 /* AppDelegate.swift in Sources */,
 				CFA2F7572434E6A4002721DC /* ImagePicker.swift in Sources */,
 				CF1B1545242143FD004350A5 /* SceneDelegate.swift in Sources */,
 				CF1B1547242143FD004350A5 /* ContentView.swift in Sources */,
+				CF595EA92435E6130073F1EC /* ContactMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

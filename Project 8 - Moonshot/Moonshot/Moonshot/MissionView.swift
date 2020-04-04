@@ -22,12 +22,16 @@ struct MissionView: View {
         GeometryReader { geometry in
             ScrollView(.vertical) {
                 VStack {
-                    Image(self.mission.image)
+                    GeometryReader { geo in
+                       Image(self.mission.image)
                         .resizable()
                         .scaledToFit()
-                        .frame(maxWidth: geometry.size.width * 0.7)
-                        .padding(.top)
+                        .frame(maxWidth: geo.size.width, maxHeight: 200)
+                        .padding()
+                        .scaleEffect((geo.frame(in: .global).minY) / (geo.size.height / 9) > 0.8 ? (geo.frame(in: .global).minY) / (geo.size.height / 9) : 0.8)
                         .accessibility(value: Text("Image of Mission \(self.mission.displayName) Badge"))
+                    }
+                    .frame(maxHeight: 200)
                     Text(self.mission.description)
                         .padding()
                     ForEach(self.astronauts, id: \.role) { crewMember in

@@ -7,15 +7,27 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct DetailView: View {
+    
+    @ObservedObject var contactItems = Contacts()
+    
+    var index = 0
+    let defaultImage = UIImage(systemName: "person")!
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                Image(uiImage: contactItems.contacts[index].image ?? defaultImage)
+                Text(contactItems.contacts[index].name)
+            }
+        }
     }
 }
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView()
+        DetailView(contactItems: Contacts(), index: 0)
     }
 }
