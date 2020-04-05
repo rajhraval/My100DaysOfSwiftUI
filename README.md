@@ -143,5 +143,12 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 93 - [Project 18 - LayoutAndGeometry - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2018%20-%20LayoutAndGeometry/Project18.md)
 - Day 94 - [Project 18 - LayoutAndGeometry - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2018%20-%20LayoutAndGeometry/Project18.md)
 
+**Consolidation Seven**
+
+- Day 95 - [Milestone Project - 16 to 18 - Dicee]() - Under Development
+
+**One Last Project**
+
+- Day 96 - [Project 19 - SnowSeeker - Part One]()
 
 **Happy Learning!**
