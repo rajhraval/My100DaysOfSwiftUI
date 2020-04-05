@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 18 - LayoutAndGeometry - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2018%20-%20LayoutAndGeometry/Project18.md)
+- [Project 19 - SnowSeeker - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2019%20-%20SnowSeeker/Project19.md)
 
 ### :clipboard: Topics
 
@@ -145,10 +145,10 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 **Consolidation Seven**
 
-- Day 95 - [Milestone Project - 16 to 18 - Dicee]() - Under Development
+- Day 95 - [Milestone Project - 16 to 18 - Dicee](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Milestone%20Project%206%20-%20Dicee/Milestone6.md) - Under Development
 
 **One Last Project**
 
-- Day 96 - [Project 19 - SnowSeeker - Part One]()
+- Day 96 - [Project 19 - SnowSeeker - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2019%20-%20SnowSeeker/Project19.md)
 
 **Happy Learning!**
