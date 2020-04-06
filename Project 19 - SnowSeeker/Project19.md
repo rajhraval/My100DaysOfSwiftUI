@@ -11,3 +11,12 @@ Today I learnt about:
 - Using `alert()` and `sheet()` in a different way using  `item: Binding<Value>` as parameter
 - Using group as transparent layout containers and compact size class
 
+### Project 19 - SnowSeeker - Day 97 of 100DaysOfSwiftUI
+
+> Anyone who stops learning is old, whether at twenty or eighty; anyone who keeps learning stays young - Henry Ford
+
+Today I learnt about:
+
+- Displaying two views side by side in iPhone and iPads
+- Creating NavigationLink for Resort Details
+- Creating Secondary Views and a little about `ListFormatter`
