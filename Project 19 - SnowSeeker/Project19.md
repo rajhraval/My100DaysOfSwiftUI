@@ -20,3 +20,13 @@ Today I learnt about:
 - Displaying two views side by side in iPhone and iPads
 - Creating NavigationLink for Resort Details
 - Creating Secondary Views and a little about `ListFormatter`
+
+### Project 19 - SnowSeeker - Day 98 of 100DaysOfSwiftUI
+
+> It’s only hard until it becomes easy. - David A. Smith
+
+Today I learnt about:
+
+- Changing the views in response to size classes
+- Binding alert to optional strings
+- Letting users mark their favourites

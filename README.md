@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 19 - SnowSeeker - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2019%20-%20SnowSeeker/Project19.md)
+- [Project 19 - SnowSeeker - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2019%20-%20SnowSeeker/Project19.md)
 
 ### :clipboard: Topics
 
@@ -151,5 +151,6 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 - Day 96 - [Project 19 - SnowSeeker - Part One](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2019%20-%20SnowSeeker/Project19.md)
 - Day 97 - [Project 19 - SnowSeeker - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2019%20-%20SnowSeeker/Project19.md)
+- Day 98 - [Project 19 - SnowSeeker - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2019%20-%20SnowSeeker/Project19.md)
 
 **Happy Learning!**
