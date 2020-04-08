@@ -30,3 +30,22 @@ Today I learnt about:
 - Changing the views in response to size classes
 - Binding alert to optional strings
 - Letting users mark their favourites
+
+### Project 19 - SnowSeeker - Day 99 of 100DaysOfSwiftUI
+
+> To be ready to fail is to be prepared for success. - Jose Bergamin
+
+Today I completed the challenges:
+
+- Added Image Credits to the Photos
+- Loading and saving favorite resorts
+- Added sort and filter functionality
+
+Project 19 - Summary:
+
+In this project I learnt about:
+
+- Size Classes
+- SplitViews in iPad
+- Binding Alerts with optional values
+- Group Containers

@@ -22,6 +22,7 @@
 		CFABF68E243A123900BCE18B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFABF68D243A123900BCE18B /* Assets.xcassets */; };
 		CFABF691243A123900BCE18B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFABF690243A123900BCE18B /* Preview Assets.xcassets */; };
 		CFABF694243A123900BCE18B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFABF692243A123900BCE18B /* LaunchScreen.storyboard */; };
+		CFAFA115243E3FF400449333 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAFA114243E3FF400449333 /* FilterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		CFABF690243A123900BCE18B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CFABF693243A123900BCE18B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFABF695243A123900BCE18B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFAFA114243E3FF400449333 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				CFABF687243A123800BCE18B /* AppDelegate.swift */,
 				CFABF689243A123800BCE18B /* SceneDelegate.swift */,
 				CFABF68B243A123800BCE18B /* ContentView.swift */,
+				CFAFA114243E3FF400449333 /* FilterView.swift */,
 				CF79EF99243B02400094B1B6 /* SkiDetailsView.swift */,
 				CF79EF9B243B02E20094B1B6 /* ResortsDetailView.swift */,
 				CF79EF97243B00D80094B1B6 /* ResortView.swift */,
@@ -178,6 +181,7 @@
 				CF79EF9C243B02E20094B1B6 /* ResortsDetailView.swift in Sources */,
 				CF3432DC243C4C3F00DCE63F /* Facility.swift in Sources */,
 				CF79EF96243AFF690094B1B6 /* WelcomeView.swift in Sources */,
+				CFAFA115243E3FF400449333 /* FilterView.swift in Sources */,
 				CFABF68A243A123800BCE18B /* SceneDelegate.swift in Sources */,
 				CF3432DE243C515E00DCE63F /* Favorites.swift in Sources */,
 				CF79EF98243B00D80094B1B6 /* ResortView.swift in Sources */,

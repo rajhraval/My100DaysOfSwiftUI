@@ -17,7 +17,7 @@ struct ResortsDetailView: View {
         case 1:
             return "Small"
         case 2:
-            return "Averge"
+            return "Average"
         default:
             return "Large"
         }
