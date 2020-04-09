@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Project 19 - SnowSeeker - Part Four](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2019%20-%20SnowSeeker/Project19.md)
+- [Day 100 and Final Exam!]()
 
 ### :clipboard: Topics
 
@@ -61,7 +61,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 **Consolidation Three**
 
-- Day 35 - [Milestone Project - 4 to 6 - MathWiz]() - Under Development
+- Day 35 - [Milestone Project - 4 to 6 - MathWiz]()
 
 **Scaling up to bigger apps**
 
@@ -98,7 +98,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 **Consolidation Five**
 
-- Day 60 - [Milestone Project - 10 to 12 - Friender]() - Under Development
+- Day 60 - [Milestone Project - 10 to 12 - Friender]()
 - Day 61 - [Time for CoreData]()
 
 **Views and ViewControllers**
@@ -121,7 +121,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 **Consolidation Six**
 
-- Day 77 - [Milestone Project - 13 to 15 - CatchUp]() - Under Development
+- Day 77 - [Milestone Project - 13 to 15 - CatchUp]()
 - Day 78 - [Time for MapKit]()
 
 **Controlling UI flow**
@@ -145,7 +145,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 **Consolidation Seven**
 
-- Day 95 - [Milestone Project - 16 to 18 - Dicee](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Milestone%20Project%206%20-%20Dicee/Milestone6.md) - Under Development
+- Day 95 - [Milestone Project - 16 to 18 - Dicee](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Milestone%20Project%206%20-%20Dicee/Milestone6.md)
 
 **One Last Project**
 
@@ -153,5 +153,9 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 - Day 97 - [Project 19 - SnowSeeker - Part Two](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2019%20-%20SnowSeeker/Project19.md)
 - Day 98 - [Project 19 - SnowSeeker - Part Three](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2019%20-%20SnowSeeker/Project19.md)
 - Day 99 - [Project 19 - SnowSeeker - Part Four](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Project%2019%20-%20SnowSeeker/Project19.md)
+
+**Wrap Up**
+
+- Day 100 - [The Final Examination]()
 
 **Happy Learning!**
