@@ -6,7 +6,7 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 ### :pushpin: What's New Today?
 
-- [Day 100 and Final Exam!]()
+- [Day 100 and Final Exam!](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day100.md)
 
 ### :clipboard: Topics
 
@@ -156,6 +156,6 @@ Daily practices and my journey for the 100DaysOfSwiftUI Challenge.
 
 **Wrap Up**
 
-- Day 100 - [The Final Examination]()
+- Day 100 - [The Final Examination](https://github.com/rajhraval1/My100DaysOfSwiftUI/blob/master/Day100.md)
 
 **Happy Learning!**
